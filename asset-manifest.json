@@ -1,16 +1,9 @@
 {
   "files": {
-<<<<<<< HEAD
     "main.css": "/static/css/main.8832903b.css",
     "main.js": "/static/js/main.0648191d.js",
     "pdfmake.js": "/static/js/pdfmake.2513ce20.chunk.js",
     "canvg.js": "/static/js/canvg.ae54fce9.chunk.js",
-=======
-    "main.css": "/static/css/main.ec514182.css",
-    "main.js": "/static/js/main.5416b80b.js",
-    "pdfmake.js": "/static/js/pdfmake.2c30b67b.chunk.js",
-    "canvg.js": "/static/js/canvg.337f4c78.chunk.js",
->>>>>>> 202228c34a367fa7778b97cf03cd344d93897049
     "xlsx.js": "/static/js/xlsx.2da15b27.chunk.js",
     "static/js/669.285a2e8b.chunk.js": "/static/js/669.285a2e8b.chunk.js",
     "static/js/414.80adc1de.chunk.js": "/static/js/414.80adc1de.chunk.js",
@@ -45,17 +38,10 @@
     "static/media/flags.png": "/static/media/flags.ae53191452bb217f0fa6.png",
     "static/media/digital-7_woff": "/static/media/digital-7_b73ef91485431ac0271f24009e14ccee.8e7783d8db97abaa0df5.woff",
     "index.html": "/index.html",
-<<<<<<< HEAD
     "main.8832903b.css.map": "/static/css/main.8832903b.css.map",
     "main.0648191d.js.map": "/static/js/main.0648191d.js.map",
     "pdfmake.2513ce20.chunk.js.map": "/static/js/pdfmake.2513ce20.chunk.js.map",
     "canvg.ae54fce9.chunk.js.map": "/static/js/canvg.ae54fce9.chunk.js.map",
-=======
-    "main.ec514182.css.map": "/static/css/main.ec514182.css.map",
-    "main.5416b80b.js.map": "/static/js/main.5416b80b.js.map",
-    "pdfmake.2c30b67b.chunk.js.map": "/static/js/pdfmake.2c30b67b.chunk.js.map",
-    "canvg.337f4c78.chunk.js.map": "/static/js/canvg.337f4c78.chunk.js.map",
->>>>>>> 202228c34a367fa7778b97cf03cd344d93897049
     "xlsx.2da15b27.chunk.js.map": "/static/js/xlsx.2da15b27.chunk.js.map",
     "669.285a2e8b.chunk.js.map": "/static/js/669.285a2e8b.chunk.js.map",
     "414.80adc1de.chunk.js.map": "/static/js/414.80adc1de.chunk.js.map",
@@ -86,12 +72,7 @@
     "897.c85d6ba5.chunk.js.map": "/static/js/897.c85d6ba5.chunk.js.map"
   },
   "entrypoints": [
-<<<<<<< HEAD
     "static/css/main.8832903b.css",
     "static/js/main.0648191d.js"
-=======
-    "static/css/main.ec514182.css",
-    "static/js/main.5416b80b.js"
->>>>>>> 202228c34a367fa7778b97cf03cd344d93897049
   ]
 }
