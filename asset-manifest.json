@@ -1,11 +1,20 @@
 {
   "files": {
+<<<<<<< HEAD
     "main.css": "/static/css/main.94d411db.css",
     "main.js": "/static/js/main.49fa94f5.js",
     "static/js/2992.264048f6.chunk.js": "/static/js/2992.264048f6.chunk.js",
     "static/js/8295.53cedc85.chunk.js": "/static/js/8295.53cedc85.chunk.js",
     "static/js/3893.cda5e7f6.chunk.js": "/static/js/3893.cda5e7f6.chunk.js",
     "static/js/2674.4ffd8532.chunk.js": "/static/js/2674.4ffd8532.chunk.js",
+=======
+    "main.css": "/static/css/main.27bc798f.css",
+    "main.js": "/static/js/main.c9694ebd.js",
+    "static/js/2992.264048f6.chunk.js": "/static/js/2992.264048f6.chunk.js",
+    "static/js/8295.53cedc85.chunk.js": "/static/js/8295.53cedc85.chunk.js",
+    "static/js/3893.cda5e7f6.chunk.js": "/static/js/3893.cda5e7f6.chunk.js",
+    "static/js/2674.71cc43a2.chunk.js": "/static/js/2674.71cc43a2.chunk.js",
+>>>>>>> d868c3983c57d98fa02d497ede775960497cac65
     "static/css/1177.ec664069.chunk.css": "/static/css/1177.ec664069.chunk.css",
     "static/js/1177.0c796933.chunk.js": "/static/js/1177.0c796933.chunk.js",
     "static/js/9372.765a3b2b.chunk.js": "/static/js/9372.765a3b2b.chunk.js",
@@ -92,8 +101,8 @@
     "static/js/9375.6e407906.chunk.js": "/static/js/9375.6e407906.chunk.js",
     "static/js/1355.60b92409.chunk.js": "/static/js/1355.60b92409.chunk.js",
     "static/js/5984.a6cbd474.chunk.js": "/static/js/5984.a6cbd474.chunk.js",
-    "static/js/140.1713a2d7.chunk.js": "/static/js/140.1713a2d7.chunk.js",
-    "static/js/5626.784fc355.chunk.js": "/static/js/5626.784fc355.chunk.js",
+    "static/js/140.0b6f8db5.chunk.js": "/static/js/140.0b6f8db5.chunk.js",
+    "static/js/5626.5278d7bf.chunk.js": "/static/js/5626.5278d7bf.chunk.js",
     "static/js/8150.83f4c615.chunk.js": "/static/js/8150.83f4c615.chunk.js",
     "static/js/624.bfdcf3e7.chunk.js": "/static/js/624.bfdcf3e7.chunk.js",
     "static/media/flags@2x.png": "/static/media/flags@2x.140042eba8c90ae1cede.png",
@@ -101,7 +110,12 @@
     "index.html": "/index.html"
   },
   "entrypoints": [
+<<<<<<< HEAD
     "static/css/main.94d411db.css",
     "static/js/main.49fa94f5.js"
+=======
+    "static/css/main.27bc798f.css",
+    "static/js/main.c9694ebd.js"
+>>>>>>> d868c3983c57d98fa02d497ede775960497cac65
   ]
 }
