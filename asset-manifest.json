@@ -1,7 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.54ccd49b.css",
+<<<<<<< HEAD
     "main.js": "/static/js/main.605e8863.js",
+=======
+    "main.js": "/static/js/main.834650ad.js",
+>>>>>>> d4859768b193e3b37c3a5037bffb4d62142c205f
     "static/js/2992.264048f6.chunk.js": "/static/js/2992.264048f6.chunk.js",
     "static/js/8295.53cedc85.chunk.js": "/static/js/8295.53cedc85.chunk.js",
     "static/js/713.9522ca9e.chunk.js": "/static/js/713.9522ca9e.chunk.js",
@@ -10,10 +14,17 @@
     "static/js/1177.41653be3.chunk.js": "/static/js/1177.41653be3.chunk.js",
     "static/js/9372.765a3b2b.chunk.js": "/static/js/9372.765a3b2b.chunk.js",
     "static/css/8515.81f08342.chunk.css": "/static/css/8515.81f08342.chunk.css",
+<<<<<<< HEAD
     "static/js/8515.ce06f405.chunk.js": "/static/js/8515.ce06f405.chunk.js",
     "static/css/2298.dc38e4e6.chunk.css": "/static/css/2298.dc38e4e6.chunk.css",
     "static/css/9178.d993a7d5.chunk.css": "/static/css/9178.d993a7d5.chunk.css",
     "static/js/9178.15b7150b.chunk.js": "/static/js/9178.15b7150b.chunk.js",
+=======
+    "static/js/8515.a83bee6a.chunk.js": "/static/js/8515.a83bee6a.chunk.js",
+    "static/css/2298.dc38e4e6.chunk.css": "/static/css/2298.dc38e4e6.chunk.css",
+    "static/css/9178.d993a7d5.chunk.css": "/static/css/9178.d993a7d5.chunk.css",
+    "static/js/9178.268577d6.chunk.js": "/static/js/9178.268577d6.chunk.js",
+>>>>>>> d4859768b193e3b37c3a5037bffb4d62142c205f
     "static/css/3988.8d09aa2f.chunk.css": "/static/css/3988.8d09aa2f.chunk.css",
     "static/js/3988.41a7b942.chunk.js": "/static/js/3988.41a7b942.chunk.js",
     "static/js/9720.2a0be5b6.chunk.js": "/static/js/9720.2a0be5b6.chunk.js",
@@ -24,7 +35,11 @@
     "static/css/1212.f28c8715.chunk.css": "/static/css/1212.f28c8715.chunk.css",
     "static/js/1212.efe5c907.chunk.js": "/static/js/1212.efe5c907.chunk.js",
     "static/css/9335.9eeb8579.chunk.css": "/static/css/9335.9eeb8579.chunk.css",
+<<<<<<< HEAD
     "static/js/9335.21e8117e.chunk.js": "/static/js/9335.21e8117e.chunk.js",
+=======
+    "static/js/9335.34e9cd27.chunk.js": "/static/js/9335.34e9cd27.chunk.js",
+>>>>>>> d4859768b193e3b37c3a5037bffb4d62142c205f
     "static/js/9203.6a7d32c5.chunk.js": "/static/js/9203.6a7d32c5.chunk.js",
     "static/css/5335.ac4ab3e0.chunk.css": "/static/css/5335.ac4ab3e0.chunk.css",
     "static/js/5335.412f2db5.chunk.js": "/static/js/5335.412f2db5.chunk.js",
@@ -39,7 +54,11 @@
     "static/js/9463.4572d844.chunk.js": "/static/js/9463.4572d844.chunk.js",
     "static/css/6966.9cb785b1.chunk.css": "/static/css/6966.9cb785b1.chunk.css",
     "static/js/6966.9d15c084.chunk.js": "/static/js/6966.9d15c084.chunk.js",
+<<<<<<< HEAD
     "static/js/7290.a23574bf.chunk.js": "/static/js/7290.a23574bf.chunk.js",
+=======
+    "static/js/7290.7b313ee9.chunk.js": "/static/js/7290.7b313ee9.chunk.js",
+>>>>>>> d4859768b193e3b37c3a5037bffb4d62142c205f
     "static/js/5856.d636ef5e.chunk.js": "/static/js/5856.d636ef5e.chunk.js",
     "static/css/2214.9e1aaa92.chunk.css": "/static/css/2214.9e1aaa92.chunk.css",
     "static/js/2214.6e561d26.chunk.js": "/static/js/2214.6e561d26.chunk.js",
@@ -92,14 +111,18 @@
     "static/js/9375.6e407906.chunk.js": "/static/js/9375.6e407906.chunk.js",
     "static/js/1355.60b92409.chunk.js": "/static/js/1355.60b92409.chunk.js",
     "static/js/5984.a6cbd474.chunk.js": "/static/js/5984.a6cbd474.chunk.js",
-    "static/js/140.1713a2d7.chunk.js": "/static/js/140.1713a2d7.chunk.js",
-    "static/js/5626.784fc355.chunk.js": "/static/js/5626.784fc355.chunk.js",
+    "static/js/140.0b6f8db5.chunk.js": "/static/js/140.0b6f8db5.chunk.js",
+    "static/js/5626.5278d7bf.chunk.js": "/static/js/5626.5278d7bf.chunk.js",
     "static/js/8150.83f4c615.chunk.js": "/static/js/8150.83f4c615.chunk.js",
     "static/js/624.75721050.chunk.js": "/static/js/624.75721050.chunk.js",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.54ccd49b.css",
+<<<<<<< HEAD
     "static/js/main.605e8863.js"
+=======
+    "static/js/main.834650ad.js"
+>>>>>>> d4859768b193e3b37c3a5037bffb4d62142c205f
   ]
 }
