@@ -2162,41 +2162,41 @@
         }
     },
     "content_gallery": {
-        "heading": "Content",
-        "sub_heading": "Choose and manage your content to publish, or create a new one to get started.",
-        "filter": "Sort by",
-        "btn": "Add New Gallery",
-        "empty_msg": "Uh-oh! Nothing to see here.",
-        "empty_sub_msg": "You can start adding new gallery here.",
-        "empty_btn": "Add Gallery",
+        "heading": "コンテンツ",
+        "sub_heading": "公開するコンテンツを選択・管理するか、新しいギャラリーを作成して始めましょう。",
+        "filter": "並べ替え",
+        "btn": "新しいギャラリーを追加",
+        "empty_msg": "おっと！表示できるものがありません。",
+        "empty_sub_msg": "ここから新しいギャラリーを追加できます。",
+        "empty_btn": "ギャラリーを追加",
         "pop": {
-            "title": "Gallery",
-            "create": "Create",
-            "edit": "Edit",
-            "update": "Update",
+            "title": "ギャラリー",
+            "create": "作成",
+            "edit": "編集",
+            "update": "更新",
             "palceholder": "Zara UGC, Puma Branded Content",
-            "btn": "Save",
-            "auto_update": "Auto Update",
-            "status": "Status",
-            "rename": "Rename",
-            "delete": "Delete",
-            "publish": "Publish",
-            "msg_auto_update_off": "Disabling auto-update will prevent new posts from being fetched, limiting the content while existing posts remain accessible.",
-            "msg_status_off": "Disabling this status will hide all collected posts from this feed, affecting visibility and content access.",
-            "gallery_already": "Gallery name already exists.",
-            "field_req": "#{{title}} name is required"
+            "btn": "保存",
+            "auto_update": "自動更新",
+            "status": "ステータス",
+            "rename": "名前変更",
+            "delete": "削除",
+            "publish": "公開",
+            "msg_auto_update_off": "自動更新を無効にすると、新しい投稿の取得が停止され、既存の投稿は閲覧可能ですが、コンテンツが制限されます。",
+            "msg_status_off": "このステータスを無効にすると、収集済みの投稿がすべて非表示になり、可視性やコンテンツアクセスに影響します。",
+            "gallery_already": "同じ名前のギャラリーが既に存在します。",
+            "field_req": "#{{title}}名は必須です"
         },
         "subheader_crumbs": {
-            "name": "Content Gallery",
-            "home": "Home"
+            "name": "コンテンツギャラリー",
+            "home": "ホーム"
         },
         "card": {
-            "post": "Posts",
-            "feed": "Feeds",
-            "add_feeds": "Add Feeds",
-            "publish": "Publish",
-            "edit": "Edit",
-            "options": "Options"
+            "post": "投稿",
+            "feed": "フィード",
+            "add_feeds": "フィードを追加",
+            "publish": "公開",
+            "edit": "編集",
+            "options": "オプション"
         }
     },
     "product_catalog": {
