@@ -81,7 +81,94 @@
         "email_verify_msg": "Your email needs to be verified!",
         "email_verify_desc": "We have sent you and email with the verfication link to ",
         "email_verify_desc_2": ". Kindly click on the verfication link present in the email to start exploring UGC Suit further.",
-        "edit_profile": "Edit Profile"
+        "edit_profile": "Edit Profile",
+        "greeting": "Hey #{{username}} 👋",
+        "personalized_experience_heading": "Want a more personalized experience?",
+        "personalized_experience_subtext": "Complete your Profile Now!",
+        "label_industry": "Industry",
+        "label_organization": "Organization",
+        "label_designation": "Designation",
+        "placeholder_add_designation": "Add Designation",
+        "btn_add_designation": "Add",
+        "label_contact": "Contact No",
+        "btn_later": "I'll do this later",
+        "btn_submit": "Submit",
+        "industry_list": [
+            {
+                "value": "Automotive",
+                "label": "Automotive"
+            },
+            {
+                "value": "Agency",
+                "label": "Agency"
+            },
+            {
+                "value": "E-Commerce",
+                "label": "E-Commerce"
+            },
+            {
+                "value": "Education",
+                "label": "Education"
+            },
+            {
+                "value": "Entertainment",
+                "label": "Entertainment"
+            },
+            {
+                "value": "Non-Profit",
+                "label": "Non-Profit"
+            },
+            {
+                "value": "Government",
+                "label": "Government"
+            },
+            {
+                "value": "Food & Beverage",
+                "label": "Food & Beverage"
+            },
+            {
+                "value": "Retail",
+                "label": "Retail"
+            },
+            {
+                "value": "Sports",
+                "label": "Sports"
+            },
+            {
+                "value": "Travel",
+                "label": "Travel"
+            },
+            {
+                "value": "Venues",
+                "label": "Venues"
+            }
+        ],
+        "designation_list": [
+            {
+                "label": "CEO",
+                "value": "CEO"
+            },
+            {
+                "label": "Developer",
+                "value": "Developer"
+            },
+            {
+                "label": "Digital Marketing Manager",
+                "value": "Digital Marketing Manager"
+            },
+            {
+                "label": "Social Media Manager",
+                "value": "Social Media Manager"
+            },
+            {
+                "label": "Product Manager",
+                "value": "Product Manager"
+            },
+            {
+                "label": "Others",
+                "value": "Others"
+            }
+        ]
     },
     "plan": {
         "back_to_feature": "Back to Feature",
@@ -109,7 +196,16 @@
         "no_social_acc_desc": "Uh-oh! No social networks connected. Link your connections and collect more content!",
         "connect_info": "#{{company}} cannot access, store, or view any personal information or passwords that you may use to connect your social media accounts.",
         "send_url_desc": "Send the connection URL to the account's owner. Enter the email id to share the link directly with them",
-        "send_url": "Share Connection URL By Email"
+        "send_url": "Share Connection URL By Email",
+        "connectAccount": "Connect to #{{network}} to pull the content for this feed.",
+        "connectButton": "Continue with"
+    },
+    "upgrad_plan": {
+        "errorModal": {
+            "heading": "Oops!",
+            "message": "Upgrade your plan to start using #{{company_name}} collaboratively with your teams",
+            "button": "Explore Pricing"
+        }
     },
     "collab": {
         "title": "Collaborator panel",
@@ -138,6 +234,19 @@
         "button_submit": "Get Started!",
         "button_progress": "Please wait...",
         "heading_access_revoked": "Access Revoked"
+    },
+    "notification": {
+        "Chat": "All",
+        "tabUnread": "Unread",
+        "msgall": "No Notifications",
+        "msgUnread": "No Unread Notifications",
+        "markAll": "Mark all as read"
+    },
+    "help": {
+        "chat": "Chat",
+        "call": "Call",
+        "email": "Email",
+        "knowledgeBase": "Knowledge base"
     },
     "pricing": {
         "auto_update": "Automatic content update time",
@@ -436,10 +545,21 @@
         "comments": "Comments",
         "optional": "Optional",
         "submit": "Sumbit",
-        "require_ph": "Please mention any specific requirements/terms for approval/rejection. (optional)…."
+        "require_ph": "Please mention any specific requirements/terms for approval/rejection. (optional)….",
+        "modal": {
+            "generalInfo": {
+                "heading": "General Information",
+                "button": "Got to Moderation",
+                "clicks": "Clicks",
+                "views": "Views",
+                "sentiment": "Sentiment",
+                "gallery": "Gallery"
+            }
+        }
     },
     "onboarding": {
         "welcome_to": "Welcome to #{{company}}",
+        "skip": "Skip",
         "step_select_source": "Select Source",
         "intro_welcome": "Welcome to #{{company}}! You have made a great decision to display social media feeds on your website.",
         "toggle_show_less": "Show less networks",
@@ -463,12 +583,6 @@
         "select_place": "Select Place",
         "select_account": "Select Account",
         "demo_data_msg": "This is demo data. Live data will appear once you add a feed.",
-        "create_another_feed": "Create Another Feed",
-        "moderate": "Moderate",
-        "product_catalog": "Product Catalog",
-        "customise_publish": "Customize & Publish",
-        "home": "Home",
-        "go_to_dashboard": "Go to Dashboard",
         "posts": "posts",
         "post": "post",
         "reviews": "reviews",
@@ -665,6 +779,16 @@
             "36": null,
             "37": null,
             "38": null
+        },
+        "verificationEmail": {
+            "signOut": "Sign Out",
+            "heading": "You're just a step away.",
+            "msgBefor": "We have sent an email to",
+            "msgAfter": "with the verification link. Please go to your email account to verify. If you don't see the email in your inbox or spam folder, try resending the email here:",
+            "resendEmail": "Resend Email",
+            "verifiedHeading": "Email Verified",
+            "verifiedMsg": "Your account has been successfully verified. Time to explore your #{{company_name}} account!",
+            "verifiedBtn": "Let's Go"
         },
         "selectedNetworkMsg": {
             "1": {
@@ -1135,6 +1259,9 @@
     },
     "manual_upload": {
         "page_title": "Manual Uploads",
+        "manual_upload_products": "Manual Upload Products",
+        "upload_csv_file": "Upload CSV File",
+        "add_single_product": "Add Single Product",
         "page_desc": "Upload content directly to the feed via device or by adding a post URL from Instagram or TikTok",
         "option_my_device": "My Device",
         "option_back": "Back",
@@ -1153,7 +1280,11 @@
         "label_select_network": "Select network",
         "label_caption": "Caption",
         "error_caption_limit": "Limit Exceed ! Max 500 characters allowed.",
-        "caption_char_count": "#{{count}}/500"
+        "caption_char_count": "#{{count}}/500",
+        "drag_and_drop": "Drag and Drop Image/Video (Optional)",
+        "media_size": "Video size: Max 100MB | Image size: Max 50 MB",
+        "media_remove": "Remove",
+        "media_edit": "Edit"
     },
     "upgrade_plan": {
         "modal_title": "Access #{{network_name}} Content with Our Paid Plan! 🎯",
@@ -1404,7 +1535,53 @@
         "type_address": "Type address",
         "accountDisconnect": "Account Disconnect",
         "confirm": "Confirm",
-        "disconnect_msg": "Do you want to disconnect account?"
+        "disconnect_msg": "Do you want to disconnect account?",
+        "twitter_advance": {
+            "instruction": "Use the table below to construct your query.",
+            "th_filter": "Filter By:",
+            "th_example": "Example",
+            "th_targets": "Targets Tweets:",
+            "filter_keywords": "Keywords",
+            "ex_keywords_1": "grapes banana",
+            "target_keywords_1": "containing both \"grapes\" and \"banana\".",
+            "ex_keywords_2": "\"good time\"",
+            "target_keywords_2": "containing the exact phrase \"good time\"",
+            "ex_keywords_3": "die OR alive",
+            "target_keywords_3": "containing either \"die\" or \"alive\" (or both)",
+            "ex_keywords_4": "food -drink",
+            "target_keywords_4": "containing \"food\" but not \"drink\"",
+            "ex_keywords_5": "#soul",
+            "target_keywords_5": "containing the hashtag \"#soul\"",
+            "ex_keywords_6": "service :)",
+            "target_keywords_6": "containing \"service\" and with a positive attitude.",
+            "ex_keywords_7": "service :(",
+            "target_keywords_7": "containing \"service\" and with a negative attitude.",
+            "filter_questions": "Questions",
+            "ex_questions": "weather ?",
+            "target_questions": "containing \"weather\" and asking a question.",
+            "filter_user": "User",
+            "ex_user_1": "from:@#{{handle}}",
+            "target_user_1": "sent from the user @#{{handle}}",
+            "ex_user_2": "to:@#{{handle}}",
+            "target_user_2": "sent to the user @#{{handle}}",
+            "ex_user_3": "@#{{handle}}",
+            "target_user_3": "mentioning @#{{handle}}",
+            "filter_location": "Location",
+            "ex_location": "#dogs geocode:34.0522342,-118.2436849,10km",
+            "target_location": "containing hashtag \"#dogs\" within Los Angeles Get coordinates (10km radius)",
+            "link_coordinates": "here",
+            "filter_devices": "Devices / Apps",
+            "ex_devices": "news source:instagramfeed",
+            "target_devices": "containing \"news\" and entered via InstagramFeed",
+            "filter_content": "Content",
+            "ex_content": "funny filter:links",
+            "target_content": "containing \" funny\" and with a URL.",
+            "filter_dates": "Dates",
+            "ex_dates_1": "champion since:2012-12-24",
+            "target_dates_1": "containing \" champion\" and sent since date \"2012-12-24\" (year-month-day).",
+            "ex_dates_2": "champion until:2012-12-24",
+            "target_dates_2": "containing \" champion\" and sent before the date \"2012-12-24\"."
+        }
     },
     "page_title": {
         "paths": [
@@ -1463,6 +1640,10 @@
             {
                 "path": "/content/products",
                 "title": "Products | #{{COMPANY_NAME}}"
+            },
+            {
+                "path": "/content",
+                "title": "Gallery | #{{COMPANY_NAME}}"
             },
             {
                 "path": "/publish",
@@ -1609,10 +1790,27 @@
         "submit_button": "Submit",
         "skip_button": "I'll do this later"
     },
+    "header": {
+        "profile_link": "Profile",
+        "profile_button": "My profile",
+        "collaborator_account": "Collaborator Account",
+        "switch_account": "Switch Account",
+        "role_admin": "Admin",
+        "role_manager": "Manager",
+        "role_current": "Current",
+        "my_account": "My account",
+        "my_account_desc": "Account information and plan details",
+        "back_to_admin": "Back To Admin",
+        "social_accounts": "Social accounts",
+        "social_accounts_desc": "Account information and plan details",
+        "sign_out": "Sign out",
+        "already_login": "Already logged in account.",
+        "account_switched": "Account switched successfully",
+        "some_error_occured": "Some error occured, please try again later."
+    },
     "common": {
         "save": "Save",
-        "copy" : "Copy",
-        "copied" : "Copied",
+        "copy": "Copy",
         "lbl_select_all": "Select All",
         "btn_back": "Back",
         "home": "Home",
@@ -1685,6 +1883,7 @@
         "view": "View",
         "download": "Download",
         "description": "Description",
+        "enter_desc": "Enter Description",
         "next_renewal_date": "Next Renewal Date",
         "total": "Total",
         "post": "Post",
@@ -1777,7 +1976,21 @@
         "set_pass_desc": "Create a new password for accessing the platform.",
         "upload_file": "Upload File",
         "request_feature": "Request New Feature",
-        "delete_item_msg": "Are you sure you want to permanently delete this #{{tempType}} template?"
+        "delete_item_msg": "Are you sure you want to permanently delete this #{{tempType}} template?",
+        "auth_failed": "Authentication process failed!",
+        "attach_image": "Attach Image",
+        "attach_video": "Attach Video",
+        "changes_not_saved": "Changes not saved!",
+        "save_continue": "Save & Continue",
+        "countine_net_msg": "Connect to #{{networkName}} to pull the content for this feed.",
+        "countine_net_btn": "Continue with #{{networkName}}",
+        "moderation_select_post_msg": "You want to #{{actionType}}approve selected post?",
+        "delete_selected_post": "You want to delete selected post?",
+        "recover_msg": "You will not be able to recover this post.",
+        "confirm_user": "Confirm User",
+        "user_post": "#{{username}}'s Post",
+        "invalid_phone_number": "Invalid phone number!",
+        "pass_upd_success": "Password Updated Successfully"
     },
     "Analytics": {
         "case_study": {
@@ -1802,7 +2015,10 @@
             "add_btn": "Add Gallery",
             "view_all": "View All",
             "edit_btn": "Edit",
-            "empty_msg": ""
+            "empty_msg": "",
+            "brand_win_msg": "Brands Are Winning Engagement",
+            "brand_win_desc": "CLeela got 15M+ impressions, 80K stories on a website widget. Why are you losing engagement?",
+            "brand_cta": "Collect Content"
         },
         "channels": {
             "heading": "Top Performing Channels",
@@ -1814,7 +2030,9 @@
             },
             "add_btn": "Add Channel",
             "view_all": "View All",
-            "edit_btn": "Edit"
+            "edit_btn": "Edit",
+            "brand_win_msg": "Brands Are Winning Engagement",
+            "brand_win_desc": "CLeela got 15M+ impressions, 80K stories on a website widget. Why are you losing engagement?"
         },
         "recent_posts": {
             "heading": "Recent Posts",
@@ -1824,7 +2042,9 @@
             "public_btn": "Public",
             "private_btn": "Private",
             "gallery_name": "Gallery",
-            "empty_msg": ""
+            "empty_msg": "",
+            "empty_title": "No Post Available",
+            "empty_btn": "Add Feed Now"
         },
         "creators": {
             "tab1": "Most Active Creators",
@@ -1834,12 +2054,36 @@
         },
         "sentiment": {
             "sentiments": {
-                "heading_first": "Sentiments",
-                "heading_second": "Sentiment statistics",
+                "heading": "Sentiments",
+                "heading_first": "Sentiments statistics",
+                "heading_second": "Sentiment posts",
                 "talk_to_sales": "Talk to Sales",
                 "upgrade_now": "Upgrade Now",
                 "msg": "Unlock AI-powered sentiment analysis and see how your audience feels about your content!",
-                "empty_msg": ""
+                "empty_msg": "",
+                "posts": "Posts",
+                "no_data": "No Data Found",
+                "no_data_Btn": "Collab with Creators",
+                "sentiments_table": [
+                    {
+                        "name": "Positive",
+                        "icon": "/emojis/emoji2.svg",
+                        "value": 25,
+                        "color": "#50dca1"
+                    },
+                    {
+                        "name": "Neutral",
+                        "icon": "/emojis/emoji3.svg",
+                        "value": 19,
+                        "color": "#ffb143"
+                    },
+                    {
+                        "name": "Negative",
+                        "icon": "/emojis/emoji4.svg",
+                        "value": 29,
+                        "color": "#ff6c7c"
+                    }
+                ]
             },
             "reputation": {
                 "heading": "Reputation",
@@ -1850,14 +2094,34 @@
             "sentiment_posts": {
                 "heading": "Sentiment posts",
                 "tab_first": "Positive",
-                "tab_second": "Negative"
+                "tab_second": "Negative",
+                "no_data": "No Data Found",
+                "no_data_btn": "Collab with Creators"
             }
         },
-        "top_performing": {
-            "heading": "Top Performing Posts",
-            "empty_msg": "To identify the top performing posts, please embed a gallery on your website.",
-            "btn_text": "Embed Now",
-            "view_all": "View All"
+        "recommendation": {
+            "heading": "AI Recommendation",
+            "powered_by": "Powered By",
+            "no_data_title": "Know How Your Audience Feels!",
+            "no_data_desc": "Analyze your content and understand audience sentiment in real-time.",
+            "upgrade": "Upgrade Now!",
+            "recommendation_data": [
+                {
+                    "name": "Recommended",
+                    "count": 239,
+                    "details": "Perfect for your campaign! This visual content aligns with your brand and goals."
+                },
+                {
+                    "name": "Considerable",
+                    "count": 6,
+                    "details": "Take a closer look! This visual content might work with some adjustments."
+                },
+                {
+                    "name": "Not Recommended",
+                    "count": 23,
+                    "details": "Hold off for now. This visual content might not be the best fit for your current campaign."
+                }
+            ]
         },
         "headings": {
             "overview": "Overview",
@@ -1869,7 +2133,32 @@
             "powered_by": "Powered By",
             "trusense": "TruSense",
             "post_network": "Post network",
-            "post_type": "Post type"
+            "post_type": "Post type",
+            "no_data_found": "No Data Found",
+            "no_data_btn": "Collab with Creators",
+            "loading": "Loading..."
+        },
+        "top_performing_posts": {
+            "heading": "Top Performing Posts",
+            "view_all": "View All",
+            "empty_msg": "To identify the top performing posts, please embed a gallery on your website.",
+            "btn_text": "Embed Now",
+            "no_data": "No Data Found"
+        },
+        "active_creators": {
+            "empty_title": "Discover Your Most Active Creators",
+            "empty_desc": "To Identify the Most Active Creators for your Brand, Please create a feed using your Brand's Hashtag (#).",
+            "empty_btn": "Create Feed",
+            "connect": "Connect"
+        },
+        "demo_msg": "This Is a Demo Data. You will start seeing the original data as soon as you add the content.",
+        "user_modal": {
+            "general_information": "General Information",
+            "clicks": "Clicks",
+            "views": "Views",
+            "sentiment": "Sentiment",
+            "gallery": "Gallery",
+            "go_to_moderation": "Go to Moderation"
         }
     },
     "content_gallery": {
@@ -1878,12 +2167,13 @@
         "filter": "Sort by",
         "btn": "Add New Gallery",
         "empty_msg": "Uh-oh! Nothing to see here.",
-        "empty_sub_msg": "You can start adding new channels here.",
+        "empty_sub_msg": "You can start adding new gallery here.",
         "empty_btn": "Add Gallery",
         "pop": {
             "title": "Gallery",
             "create": "Create",
             "edit": "Edit",
+            "update": "Update",
             "palceholder": "Zara UGC, Puma Branded Content",
             "btn": "Save",
             "auto_update": "Auto Update",
@@ -1921,6 +2211,9 @@
         "delete": "Remove",
         "no_product": "No Product Found",
         "no_product_desc": "We can't find any item matching your search.",
+        "sync_products_title": "Sync Product Catalog",
+        "sync_products_desc": "Select the application from which you want to tag products",
+        "request_platform": "Request Platform",
         "are_you_sure": "Are you sure?",
         "are_you_sure_msg": "Are you sure you want to permanently delete selected #{{count}} product?",
         "success_deleted": "Successfully Deleted !",
@@ -1951,7 +2244,9 @@
             "sub_heading2": "sample csv template ",
             "sub_heading3": "to see an example of the format required ",
             "btn_cancel": "Cancel",
-            "btn_upload": "Upload and continue"
+            "btn_upload": "Upload and continue",
+            "your_file": "Your selected file name",
+            "loading": "Please Wait..."
         },
         "pop_sync": {
             "heading": "Sync Product",
@@ -1970,9 +2265,24 @@
             "text_magento": "Note: Only Compatible with Magento 2.x",
             "woocommerce": "Woocommerce",
             "plc_woocommerce": "Enter your \"woocommerce\" store URL",
-            "btn_req": "Request Platform"
+            "btn_req": "Request Platform",
+            "heading_shopify": "Sync product from shopify",
+            "last_synced": "Last synced #{{time}}",
+            "connect_shop": "Connect Shop",
+            "sync_product_other": "Sync product from other source",
+            "add_product": "Add Product",
+            "import": "Import Product List",
+            "err_required": "This field is required",
+            "err_google_invalid": "Please enter valid Merchant ID",
+            "err_shopify_invalid": "Please enter valid url.",
+            "err_shopify_connected": "Shop already connected.",
+            "connected_shop": "Your Connected Shop",
+            "label_store": "Store :"
         },
         "pop_add": {
+            "product_image": "Product Image",
+            "product_preview": "Product Preview",
+            "shop_now": "Shop Now",
             "heading": "product",
             "update": "Update",
             "add": "Add",
@@ -1991,7 +2301,15 @@
             "label_category": "Category",
             "plc_category": "Enter Category",
             "label_tags": "Tags",
-            "plc_tags": "Enter Multiple Tags Comma Separated"
+            "plc_tags": "Enter Multiple Tags Comma Separated",
+            "edit": "Edit",
+            "remove": "Remove",
+            "click_here": "Click here",
+            "to_upload": "to upload the new image",
+            "product_name_req": "Product name is required",
+            "discount_tooltip": "This represents the price after subtracting the discount.",
+            "discount_err": "Discounted price should be less than actual price.",
+            "valid_url": "Please enter valid url."
         }
     },
     "channel": {
@@ -2004,6 +2322,7 @@
         "channel_to_publish": "Channel To Publish",
         "cancel": "Cancel",
         "popup": {
+            "options": "Options",
             "rename": "Rename",
             "delete": "Delete",
             "create_duplicate": "Create Duplicate",
@@ -2019,7 +2338,10 @@
             "ph_campaign": "Holiday Campaign, Halloween Campaign",
             "ph_bio": "TikTok bio, Instagram Bio",
             "enter_name_error": "Channel name is required",
-            "gallery_error": "Please select a gallery."
+            "gallery_error": "Please select a gallery.",
+            "website": "Website",
+            "email_campaign": "Email Campaign",
+            "shopon_bio": "Shopon Bio"
         }
     },
     "apps_more": {
@@ -2031,375 +2353,49 @@
             "sub_heading_2": "Turn your content into conversions. Enable Shoppable & tag products to drive sales directly from your UGC Gallery.",
             "btn": "Disable",
             "btn_2": "Enable",
-            "btn_3": "Upgrade now"
+            "btn_3": "Upgrade now",
+            "modal": {
+                "title": "Are you share you want to disable Shoppable UGC?",
+                "yes": "Yes",
+                "no": "No"
+            }
+        },
+        "api_access_title": "API Access",
+        "api_access_desc": "Get API access with our upgraded plan to integrate Taggbox gallery in your application and make your app stand out.",
+        "talk_to_sales": "Talk to Sales"
+    },
+    "shoponBio": {
+        "select_content": "Select content",
+        "get_start": "Get Started With ShopOn.bio",
+        "get_start_info": "Show your values, mission, and uniqueness. Make it simple, clear, and inspiring. Let your audience connect! (Your brand, in 300 characters)",
+        "inputBio": "Bio",
+        "userName": "Choose your ShopOn.bio Username",
+        "userNameError": "URL is already taken",
+        "urlValid": "URL is available",
+        "userNameErrorlength": "Slug characters length should be minimum 4.",
+        "request_customize": "Request Customization",
+        "themeType": "Theme type",
+        "themeDark": " Dark",
+        "themeLight": " Light",
+        "error": {
+            "emptyIcon": {
+                "text": "Add content",
+                "title": "Preview missing? 👀",
+                "desc": "You skipped the preliminary step. Connect your social account to collect content and begin creating your gallery."
+            },
+            "emptyVideo1": {
+                "text": "Add content",
+                "title": "Your shopon.bio needs content! 🤳",
+                "desc": "Oops! Seems like your Shopon.Bio landing page is missing posts at the moment. To create a captivating landing page, add content to your gallery or make some posts public."
+            },
+            "emptyVideo2": {
+                "text": "Create ShopOn Bio",
+                "title": "Create a ShopOn, to start",
+                "desc": "Oops! Looks like you have deleted your ShopOn bio, create one by simply clicking on the button below."
+            }
         }
     },
-    "publish": {
-        "title": "Select gallery",
-        "btn_generate": "Generate code",
-        "save": "Save",
-        "btn_back": "Back to Edit",
-        "script": "Script",
-        "preview": "Preview",
-        "desktop": "Desktop",
-        "mobile": "Mobile",
-        "theme": {
-            "heading": "THEME LAYOUT",
-            "social": "Social",
-            "review": "Reviews",
-            "banner_layout": "BANNER LAYOUT"
-        },
-        "customization": {
-            "recommended": "Use Your Website Settings (Recommended)",
-            "recommended_tooltip": "Properties of your websites will be automatically applied on the widget once you embed.",
-            "font_family": "Font family",
-            "weight": "Weight",
-            "font_color": "Font color",
-            "card_heading": "Card style",
-            "banner_heading": "Banner style",
-            "more_actions_heading": "More actions",
-            "background_heading": "Background",
-            "custom_css_heading": "Custom css",
-            "hash_highlighter_heading": "Hashtag highlighter",
-            "google_analytics_heading": "Google analytics",
-            "snap_up_heading": "Review hub settings",
-            "we_here": "We’re here",
-            "connect_to_support": "Connect to Support",
-            "need_help": "Need help customizing?",
-            "cta_heading": "CTA",
-            "transparent_background": "Transparent background",
-            "color": "Color",
-            "background_image": "Background Image",
-            "recommended_size": "Recommended Size: 1920px x 1080px Image with Aspect Ratio and Resolution of Intended Display.",
-            "custom_css_status": "Status",
-            "custom_css_tooltip": "Add your custom css to personalize the look of your Gallery.",
-            "feed_hashtag": "Feed hashtag",
-            "all_hashtag": "All hashtag",
-            "font_size": "Font size",
-            "text": "Text",
-            "button": "Button",
-            "hotspot": "Hotspot",
-            "products": "Products",
-            "catalog_name": "Catalog Name",
-            "title": "Title",
-            "price": "Price",
-            "background_color": "Background color",
-            "hotspot_icon": "Hotspot icon",
-            "dot": "Dot",
-            "number": "Number",
-            "card_style": {
-                "general_style": "General style",
-                "font_size": "Font size",
-                "card_radius": "Card radius",
-                "card_color": "Card color",
-                "card_position": "Card Position",
-                "post_position": "Position (Post highlight)",
-                "card_size": "Card Size",
-                "label_text": "Label text",
-                "label_color": "Label color",
-                "label_font_color": "Label font color",
-                "text_alignment": "Text Alignment",
-                "line_trim": "No. of Line Trim",
-                "aspect_ratio": "Aspect Image Ratio",
-                "social_status": "Social icon status",
-                "social_status_tooltip": "Show/hide social icon",
-                "default_color": "Default social icon color",
-                "default_color_tooltip": "Custom icon colors are not supported for Google Reviews.",
-                "author_style": "Author style",
-                "author_color": "Author color",
-                "time": "Time",
-                "author_detail": "Author Detail",
-                "share_options": "Share Options",
-                "hide_text": "Hide Text",
-                "hide_text_tooltip": "Hide Text is only available for posts with media.",
-                "social_actions": "Social actions"
-            },
-            "banner_style": {
-                "overall_settings": "Overall settings",
-                "background_color": "Background color",
-                "other_settings": "Other settings",
-                "select_network": "Select network",
-                "title": "Title",
-                "subtitle": "Subtitle",
-                "profile_image": "Profile Image",
-                "button_text": "Button text",
-                "button_text_color": "Button text color",
-                "button_color": "Button color",
-                "follow_us": "Follow Us",
-                "heading": "Heading",
-                "font_size": "Font size",
-                "star_color": "Star color",
-                "review_button": "Review button"
-            },
-            "more_actions": {
-                "carousel_post": "Carousel post",
-                "carousel_post_tooltip": "Enable to reflect carousal posts.",
-                "shuffle_post": "Shuffle post",
-                "shuffle_post_tooltip": "Shuffles your post in random order irrespective of date/ time.",
-                "hide_duplicate_post": "Hide duplicate post",
-                "hide_duplicate_post_tooltip": "This feature helps you hide posts displayed more than once.",
-                "web_embed_filter": "Web embed filter",
-                "web_embed_filter_tooltip": "This feature will enable network filters in case of multi network feeds. Effect will be shown after saving.",
-                "auto_slide": "Auto slide",
-                "auto_slide_tooltip": "Enable the Gallery to automatically slide.",
-                "video_autoplay": "Video autoplay",
-                "video_autoplay_tooltip": "Enable to auto-play video previews in thumbnails.",
-                "show_more_button": "Show more button",
-                "show_more_button_tooltip": "Show/Hide the 'Show more' button.",
-                "auto_load": "Auto-load",
-                "auto_load_tooltip": "Experience the never-ending trail of feeds.",
-                "hide_posts": "Hide 'text only' posts",
-                "hide_posts_tooltip": "Hide 'Text Only' Posts",
-                "trim_content": "Trim content",
-                "trim_content_tooltip": "It will trim post text after a limit.",
-                "mobile_popup": "Mobile popup",
-                "mobile_popup_tooltip": "Enables pop-up for the posts when clicked in web embed, in mobile version.",
-                "best_fit": "Best fit",
-                "best_fit_tooltip": "Enables you to load images smoothly.",
-                "on_click": "On Click",
-                "custom_url": "Custom url",
-                "ai_summarizer": "AI Summarizer",
-                "ai_summarizer_tooltip": "Your reviews, summarized in seconds - powered by AI.",
-                "number_of_posts": "Total number of posts to display",
-                "number_of_posts_tooltip": "Maximum no. of posts to be displayed on live gallery.",
-                "slider_speed": "Slider Speed",
-                "time_per_slide": "Time per slide",
-                "column_desktop": "Column (desktop)",
-                "column_mobile": "Column (mobile)",
-                "no_of_row": "No.of rows",
-                "hide_old_posts": "Hide Old Posts",
-                "hide_old_posts_tooltip": "Hides old posts on your live gallery.",
-                "min_post_w": "Minimum post width",
-                "post_spacing": "Post spacing"
-            },
-            "google_analytics": {
-                "google_analytics_tooltip": "Allow google analytics tracking for this website.",
-                "error_msg": "Please Fill Tracking ID"
-            },
-            "cta": {
-                "btn_text": "Button text",
-                "text_color": "Text color",
-                "button_color": "Button color",
-                "button_url": "Button url",
-                "btn_url_error": "Please enter valid url."
-            },
-            "review_hub": {
-                "btn_content": "Button content",
-                "btn_text": "Button text",
-                "qr": "QR(Hide/Show)",
-                "bg_color": "Background color"
-            },
-            "product_cta": {}
-        },
-         
-        "galleryTypeObj": {
-            "landingPage": {
-                "dropDownTitle": "Homepage & Landing Page",
-                "dropDownDescShoppable": "Publish your shoppable gallery on your online store’s homepage, category page, inspiration page, lookbooks, or any other relevant page to drive sales.",
-                "dropDownDesc": "Publish your social media widget on your website’s homepage, landing pages, blog posts, and dedicated UGC galleries to boost engagement and showcase authentic content seamlessly."
-            },
-            "productPage": {
-                "dropDownTitle": "Product Page Galleries",
-                "dropDownDesc": "Display shoppable galleries on your online store’s product pages, filtering posts based on each product’s ID.",
-                "publishCodeId": "Add your Product ID identifier variable after the Data Filter ID section in the publish code in Step 3",
-                "publishCodeIdExample": "For Example: data-filter-id=\"{{product-id}}\""
-            },
-            "tagBased": {
-                "dropDownTitle": "Tag-based Widget",
-                "dropDownDescShoppable": "Filter your gallery using tags and easily embed the tag-based gallery anywhere on your e-commerce store.",
-                "dropDownDesc": "Filter your gallery using tags and easily embed the tag-based gallery anywhere on your website.",
-                "selectTag": "Select your tags",
-                "selectTagPlaceholder": "Search for options...",
-                "tagList": "Tag List",
-                "generatecode": "Generate Code"
-            },
-            "rattingSchema": {
-                "dropDownTitle": "Rating Schema",
-                "dropDownDesc": "Display aggregated ratings directly in Google search results to enhance visibility, improve your SEO ranking, and drive more traffic to your web pages.",
-                "selectFeed": "Select feeds",
-                "copyCode": "Copy and paste the schema code on your website <head> </head> section.",
-                "rattingInfo": "This is how your brand looks like in SERP",
-                "sideBar": {
-                    "1": "Steps to add Rating Schema on your Website",
-                    "2": "Copy and paste the schema code on your page head section.",
-                    "3": "Go to your Google console and re-crawl the website URL.",
-                    "4": "Display Star Rating in Search Results",
-                    "5": "A Rating Schema in SERP refers to the structured data markup that helps search engines display star ratings and reviews in search results.",
-                    "6": "<strong> Increases Click-Through Rate (CTR) - </strong> Star ratings and review snippets make your search listing stand out, potentially boosting CTR by up to 30%.",
-                    "7": "<strong> Builds Trust & Credibility - </strong> Users trust pages with verified ratings, making them more likely to click and convert.",
-                    "8": "<strong> Boosts Local SEO - </strong> Ratings for businesses improve local search rankings and attract more customers."
-                },
-                "popup": {
-                    "heading": "Send code by email",
-                    "text": "Share this embed code with your team. Enter the email Id to send the code directly to them"
-                }
-            },
-            "plateform": {
-                "1": {
-                  "plateform" : "html",  
-                  "text" : "Copy the generated Publish Code for your HTML gallery",  
-                  "dics" : {
-                    "1": "Simply log in to your <strong>HTML website</strong> and select the landing page where you wish to publish your gallery",
-                    "2": "Paste the publish code into the backend of the page",
-                    "3": "Apply the required changes and Voila! You will have successfully published the #{{replace_text}} gallery on your website"
-                  }
-                },
-                "2": {
-                   "plateform" : "shopify",  
-                   "text" : "Copy the below given Publish Code for your Shopify gallery"    
-                },
-                "3": {
-                    "plateform" : "wordpress",  
-                    "text" : "Copy the generated Publish Code for your WordPress gallery",  
-                    "dics" : {
-                        "1": "Log in to your WordPress",
-                        "2": "Select and edit the page where you want to publish the gallery and apply changes to display it on your website",
-                        "3": "Click on (+) to add new block and choose custom HTML",
-                        "4": "Paste the copied code",
-                        "5": "Click on Publish/Update post and You're Done!"
-                    }
-                },
-               "4" : {
-                   "plateform" : "prestashop",  
-                    "text" : "Copy the generated Publish Code for your Prestashop gallery" 
-                },
-               "5" : {
-                   "plateform" : "bigcommerce",  
-                    "text" : "Copy the generated Publish Code for your Bigcommerce gallery" 
-                },
-               "6": {
-                    "plateform" : "magento",  
-                    "text" : "Copy the generated Publish Code for your Magento gallery",  
-                    "dics" : {
-                        "1": "Log into your <strong>Magento account</strong>",
-                        "2": "Navigate on the webpage in your Magento website where you want to showcase the #{{replace_text}} Gallery.",
-                        "3": "Paste the copied publish code and click on Apply to complete the process",
-                        "4": "Tadaa! you have now published the #{{replace_text}} gallery on Magento website."
-                    }
-                },
-                "7" : {
-                    "plateform" : "other",  
-                    "text" : "Copy the generated Publish Code for your gallery",  
-                    "dics" : {
-                        "1": "Here you can publish a Gallery on your website using either Javascript code or Iframe.",
-                        "2": "Copy the Generated code from #{{replace_text}} Code Generator",
-                        "3": "You can also adjust the height and width of your #{{replace_text}} Gallery before Generating a code",
-                        "4": "Paste the Code on the backend of your website and save it.",
-                        "5": "You’re Done!"
-                    }
-                },          
-                "8": {
-                   "plateform" : "wix",  
-                    "text" : "Copy the generated Publish Code for your Wix gallery",  
-                    "dics" : {
-                        "1": "Log in to your Wix account.",
-                        "2": "Select and edit the page where you want to embed the widget and apply changes to display it on your website.",
-                        "3": "Click on (+) to add new block and choose Embed Code and select Embed HTML option.",
-                        "4": "Paste your copied code and click on Update to complete the process!"
-                    } 
-                },
-                "9" : {
-                    "plateform" : "squareSpace",  
-                    "text" : "Copy the generated Publish Code for your SquareSpace gallery",  
-                    "dics" : {
-                        "1": "Log into your Squarespace account and Open the page where you wish to Embed the Widget",
-                        "2": "Click on +Add/Edit Block and Select Code",
-                        "3": "Paste the copied code and click on apply",
-                        "4": "Paste your copied code and click on Update to complete the process!"
-                    }
-                }
-              
-            },
-            "commonContent": {
-                "heading": "Publish On HTML Website",
-                "sideBardTitle": "Gallery Type",
-                "sideBarPlateform": "Select Platforms",
-                "adjusted_size": "Adjust the width and height of the Gallery as per your requirement",
-                "publishDesc": " Paste the publish code into the backend of the page",
-                "connectSupport": "Don’t know how to install code? Reach out to our support team",
-                "connectSupportLink": "Connect to Support",
-                "preview": "Preview"
-            }
-        },
-        "more_publish": [
-            {
-                "id": "1",
-                "title": "Buffer",
-                "icon": "buffer",
-                "text": "Connect with Buffer to seamlessly schedule and post user-generated content (UGC) across your social media platforms. Build trust and engage your audience with authentic content."
-            },
-            {
-                "id": "2",
-                "title": "Hubspot",
-                "icon": "hubspot",
-                "text": "Enrich your email campaigns by featuring UGC through HubSpot. Showcase customer reviews and authentic content to boost trust and enhance conversions."
-            },
-            {
-                "id": "3",
-                "title": "Hootsuite",
-                "icon": "hootsuite",
-                "text": "Plan and post user-generated content effortlessly with Hootsuite. Elevate your brand’s presence by maintaining a consistent and trustworthy voice on social media."
-            },
-            {
-                "id": "4",
-                "title": "Zapier",
-                "icon": "zapier",
-                "text": "Automate workflows and connect with thousands of apps using Zapier. Repurpose UGC with ease and integrate it into your existing tools and processes seamlessly."
-            },
-            {
-                "id": "5",
-                "title": "Facebook Ads",
-                "icon": "facebook",
-                "text": "Enhance your ad campaigns on Facebook with engaging UGC. Boost performance and connect with your audience authentically. Got ideas? We’re ready to listen!"
-            },
-            {
-                "id": "6",
-                "title": "Tiktok Ads",
-                "icon": "tiktok",
-                "text": "Create captivating TikTok Ads by integrating user-generated content. Deliver ads that stand out and engage your audience effectively. Have feedback? Share it with us—we value your input!"
-            },
-            {
-                "id": "7",
-                "title": "Request an Integration",
-                "icon": "integration",
-                "text": "Looking for an integration that’s not here? Let us know your requirements, and we’ll explore how we can make it happen to suit your needs."
-            }
-        ]        
-    },
-
-    "shoponBio": {
-            "select_content" : "Select content",
-            "get_start" : "Get Started With ShopOn.bio",
-            "get_start_info" : "Show your values, mission, and uniqueness. Make it simple, clear, and inspiring. Let your audience connect! (Your brand, in 300 characters)",
-            "inputBio" : "Bio",
-            "userName" : "Choose your ShopOn.bio Username",
-            "userNameError" : "URL is already taken",
-            "urlValid" : "URL is available",
-            "userNameErrorlength" : "Slug characters length should be minimum 4.",
-            "request_customize" : "Request Customization",
-            "themeType": "Theme type",
-            "themeDark": " Dark",
-            "themeLight": " Light",
-            "error": {
-                "emptyIcon" : {
-                    "text" : "Add content",
-                    "title": "Preview missing? 👀",
-                    "desc": "You skipped the preliminary step. Connect your social account to collect content and begin creating your gallery."
-                },
-                "emptyVideo1" : {
-                    "text" : "Add content",
-                    "title": "Your shopon.bio needs content! 🤳",
-                    "desc": "Oops! Seems like your Shopon.Bio landing page is missing posts at the moment. To create a captivating landing page, add content to your gallery or make some posts public."
-                },
-                "emptyVideo2" : {
-                    "text" : "Create ShopOn Bio",
-                    "title": "Create a ShopOn, to start",
-                    "desc": "Oops! Looks like you have deleted your ShopOn bio, create one by simply clicking on the button below."
-                } 
-            }
-        },
-
-        "platform": {
+    "platform": {
         "homepage": "Homepage & Landing Page",
         "homepage_desc": "Publish your social media widget on your website’s homepage, landing pages, blog posts, and dedicated UGC galleries to boost engagement and showcase authentic content seamlessly.",
         "homepage_desc_shop": "Publish your shoppable gallery on your online store’s homepage, category page, inspiration page, lookbooks, or any other relevant page to drive sales.",
@@ -2676,5 +2672,668 @@
                 }
             ]
         }
+    },
+    "publish": {
+        "title": "Select gallery",
+        "btn_generate": "Generate code",
+        "save": "Save",
+        "btn_back": "Back to Edit",
+        "script": "Script",
+        "preview": "Preview",
+        "desktop": "Desktop",
+        "mobile": "Mobile",
+        "theme": {
+            "heading": "THEME LAYOUT",
+            "social": "Social",
+            "review": "Reviews",
+            "banner_layout": "BANNER LAYOUT"
+        },
+        "customization": {
+            "recommended": "Use Your Website Settings (Recommended)",
+            "recommended_tooltip": "Properties of your websites will be automatically applied on the widget once you embed.",
+            "font_family": "Font family",
+            "weight": "Weight",
+            "font_color": "Font color",
+            "card_heading": "Card style",
+            "banner_heading": "Banner style",
+            "more_actions_heading": "More actions",
+            "background_heading": "Background",
+            "custom_css_heading": "Custom css",
+            "hash_highlighter_heading": "Hashtag highlighter",
+            "google_analytics_heading": "Google analytics",
+            "snap_up_heading": "Review hub settings",
+            "we_here": "We’re here",
+            "connect_to_support": "Connect to Support",
+            "need_help": "Need help customizing?",
+            "cta_heading": "CTA",
+            "transparent_background": "Transparent background",
+            "color": "Color",
+            "background_image": "Background Image",
+            "recommended_size": "Recommended Size: 1920px x 1080px Image with Aspect Ratio and Resolution of Intended Display.",
+            "custom_css_status": "Status",
+            "custom_css_tooltip": "Add your custom css to personalize the look of your Gallery.",
+            "feed_hashtag": "Feed hashtag",
+            "all_hashtag": "All hashtag",
+            "font_size": "Font size",
+            "text": "Text",
+            "button": "Button",
+            "hotspot": "Hotspot",
+            "products": "Products",
+            "catalog_name": "Catalog Name",
+            "title": "Title",
+            "price": "Price",
+            "background_color": "Background color",
+            "hotspot_icon": "Hotspot icon",
+            "dot": "Dot",
+            "number": "Number",
+            "card_style": {
+                "general_style": "General style",
+                "font_size": "Font size",
+                "card_radius": "Card radius",
+                "card_color": "Card color",
+                "card_position": "Card Position",
+                "post_position": "Position (Post highlight)",
+                "card_size": "Card Size",
+                "label_text": "Label text",
+                "label_color": "Label color",
+                "label_font_color": "Label font color",
+                "text_alignment": "Text Alignment",
+                "line_trim": "No. of Line Trim",
+                "aspect_ratio": "Aspect Image Ratio",
+                "social_status": "Social icon status",
+                "social_status_tooltip": "Show/hide social icon",
+                "default_color": "Default social icon color",
+                "default_color_tooltip": "Custom icon colors are not supported for Google Reviews.",
+                "author_style": "Author style",
+                "author_color": "Author color",
+                "time": "Time",
+                "author_detail": "Author Detail",
+                "share_options": "Share Options",
+                "hide_text": "Hide Text",
+                "hide_text_tooltip": "Hide Text is only available for posts with media.",
+                "social_actions": "Social actions",
+                "trim_options": [
+                    {
+                        "label": "Default",
+                        "value": 0
+                    },
+                    {
+                        "label": "Two",
+                        "value": 2
+                    },
+                    {
+                        "label": "Three",
+                        "value": 3
+                    },
+                    {
+                        "label": "Four",
+                        "value": 4
+                    },
+                    {
+                        "label": "Five",
+                        "value": 5
+                    }
+                ],
+                "image_ratios": [
+                    {
+                        "label": "Default",
+                        "value": 0
+                    },
+                    {
+                        "label": "1:1 Square",
+                        "value": 100
+                    },
+                    {
+                        "label": "3:2 Standard",
+                        "value": 66.66
+                    },
+                    {
+                        "label": "2:3 Standard (Vertical)",
+                        "value": 150
+                    },
+                    {
+                        "label": "4:3 Four-Three",
+                        "value": 75
+                    },
+                    {
+                        "label": "3:4 Four Three Vertical",
+                        "value": 133.33
+                    },
+                    {
+                        "label": "16:9 Widescreen",
+                        "value": 56.25
+                    },
+                    {
+                        "label": "9:16 Widescreen (Vertical)",
+                        "value": 177.77
+                    }
+                ],
+                "card_positions": [
+                    {
+                        "label": "Bottom Left",
+                        "value": 1
+                    },
+                    {
+                        "label": "Top Left",
+                        "value": 2
+                    },
+                    {
+                        "label": "Top Right",
+                        "value": 3
+                    },
+                    {
+                        "label": "Bottom Right",
+                        "value": 4
+                    }
+                ],
+                "card_sizes": [
+                    {
+                        "label": "Small",
+                        "value": 1
+                    },
+                    {
+                        "label": "Medium",
+                        "value": 2
+                    },
+                    {
+                        "label": "Large",
+                        "value": 3
+                    }
+                ],
+                "post_highlight_position": [
+                    {
+                        "label": "Left",
+                        "value": "left"
+                    },
+                    {
+                        "label": "Right",
+                        "value": "right"
+                    }
+                ]
+            },
+            "banner_style": {
+                "overall_settings": "Overall settings",
+                "background_color": "Background color",
+                "other_settings": "Other settings",
+                "select_network": "Select network",
+                "title": "Title",
+                "subtitle": "Subtitle",
+                "profile_image": "Profile Image",
+                "button_text": "Button text",
+                "button_text_color": "Button text color",
+                "button_color": "Button color",
+                "follow_us": "Follow Us",
+                "heading": "Heading",
+                "font_size": "Font size",
+                "star_color": "Star color",
+                "review_button": "Review button"
+            },
+            "more_actions": {
+                "carousel_post": "Carousel post",
+                "carousel_post_tooltip": "Enable to reflect carousal posts.",
+                "shuffle_post": "Shuffle post",
+                "shuffle_post_tooltip": "Shuffles your post in random order irrespective of date/ time.",
+                "hide_duplicate_post": "Hide duplicate post",
+                "hide_duplicate_post_tooltip": "This feature helps you hide posts displayed more than once.",
+                "web_embed_filter": "Web embed filter",
+                "web_embed_filter_tooltip": "This feature will enable network filters in case of multi network feeds. Effect will be shown after saving.",
+                "auto_slide": "Auto slide",
+                "auto_slide_tooltip": "Enable the Gallery to automatically slide.",
+                "video_autoplay": "Video autoplay",
+                "video_autoplay_tooltip": "Enable to auto-play video previews in thumbnails.",
+                "show_more_button": "Show more button",
+                "show_more_button_tooltip": "Show/Hide the 'Show more' button.",
+                "auto_load": "Auto-load",
+                "auto_load_tooltip": "Experience the never-ending trail of feeds.",
+                "hide_posts": "Hide 'text only' posts",
+                "hide_posts_tooltip": "Hide 'Text Only' Posts",
+                "trim_content": "Trim content",
+                "trim_content_tooltip": "It will trim post text after a limit.",
+                "mobile_popup": "Mobile popup",
+                "mobile_popup_tooltip": "Enables pop-up for the posts when clicked in web embed, in mobile version.",
+                "best_fit": "Best fit",
+                "best_fit_tooltip": "Enables you to load images smoothly.",
+                "on_click": "On Click",
+                "custom_url": "Custom url",
+                "ai_summarizer": "AI Summarizer",
+                "ai_summarizer_tooltip": "Your reviews, summarized in seconds - powered by AI.",
+                "number_of_posts": "Total number of posts to display",
+                "number_of_posts_tooltip": "Maximum no. of posts to be displayed on live gallery.",
+                "slider_speed": "Slider Speed",
+                "time_per_slide": "Time per slide",
+                "column_desktop": "Column (desktop)",
+                "column_mobile": "Column (mobile)",
+                "no_of_row": "No.of rows",
+                "hide_old_posts": "Hide Old Posts",
+                "hide_old_posts_tooltip": "Hides old posts on your live gallery.",
+                "min_post_w": "Minimum post width",
+                "post_spacing": "Post spacing",
+                "hide_post_range": [
+                    {
+                        "label": "One Day Ago",
+                        "value": 1
+                    },
+                    {
+                        "label": "Two Days Ago",
+                        "value": 2
+                    },
+                    {
+                        "label": "Three Days Ago",
+                        "value": 3
+                    },
+                    {
+                        "label": "Four Days Ago",
+                        "value": 4
+                    },
+                    {
+                        "label": "Five Days Ago",
+                        "value": 5
+                    },
+                    {
+                        "label": "Six Days Ago",
+                        "value": 6
+                    },
+                    {
+                        "label": "Seven Days Ago",
+                        "value": 7
+                    },
+                    {
+                        "label": "One Month",
+                        "value": 30
+                    },
+                    {
+                        "label": "Custom Select",
+                        "value": 8
+                    }
+                ],
+                "rows_options": [
+                    {
+                        "label": "1 Row",
+                        "value": 1
+                    },
+                    {
+                        "label": "2 Rows",
+                        "value": 2
+                    }
+                ],
+                "pop_up_actions": [
+                    {
+                        "label": "Do Nothing",
+                        "value": 0
+                    },
+                    {
+                        "label": "Open pop-up",
+                        "value": 1
+                    },
+                    {
+                        "label": "Go to source",
+                        "value": 2
+                    },
+                    {
+                        "label": "Custom Url",
+                        "value": 3
+                    }
+                ],
+                "ai_summary_styles": [
+                    {
+                        "label": "Off",
+                        "value": 0
+                    },
+                    {
+                        "label": "List",
+                        "value": 1
+                    },
+                    {
+                        "label": "Text",
+                        "value": 2
+                    }
+                ],
+                "ticker_slider_speed": [
+                    {
+                        "label": "Slower",
+                        "value": 5
+                    },
+                    {
+                        "label": "Slow",
+                        "value": 10
+                    },
+                    {
+                        "label": "Normal",
+                        "value": 15
+                    },
+                    {
+                        "label": "Fast",
+                        "value": 20
+                    },
+                    {
+                        "label": "Faster",
+                        "value": 30
+                    }
+                ],
+                "column_options": [
+                    {
+                        "label": "Responsive",
+                        "value": 0
+                    },
+                    {
+                        "label": "1 Column",
+                        "value": 1
+                    },
+                    {
+                        "label": "2 Columns",
+                        "value": 2
+                    },
+                    {
+                        "label": "3 Columns",
+                        "value": 3
+                    },
+                    {
+                        "label": "4 Columns",
+                        "value": 4
+                    },
+                    {
+                        "label": "5 Columns",
+                        "value": 5
+                    },
+                    {
+                        "label": "6 Columns",
+                        "value": 6
+                    },
+                    {
+                        "label": "7 Columns",
+                        "value": 7
+                    },
+                    {
+                        "label": "8 Columns",
+                        "value": 8
+                    },
+                    {
+                        "label": "9 Columns",
+                        "value": 9
+                    }
+                ]
+            },
+            "google_analytics": {
+                "google_analytics_tooltip": "Allow google analytics tracking for this website.",
+                "error_msg": "Please Fill Tracking ID"
+            },
+            "cta": {
+                "btn_text": "Button text",
+                "text_color": "Text color",
+                "button_color": "Button color",
+                "button_url": "Button url",
+                "btn_url_error": "Please enter valid url."
+            },
+            "review_hub": {
+                "btn_content": "Button content",
+                "btn_text": "Button text",
+                "qr": "QR(Hide/Show)",
+                "bg_color": "Background color"
+            },
+            "product_cta": {}
+        },
+        "galleryTypeObj": {
+            "landingPage": {
+                "dropDownTitle": "Homepage & Landing Page",
+                "dropDownDescShoppable": "Publish your shoppable gallery on your online store’s homepage, category page, inspiration page, lookbooks, or any other relevant page to drive sales.",
+                "dropDownDesc": "Publish your social media widget on your website’s homepage, landing pages, blog posts, and dedicated UGC galleries to boost engagement and showcase authentic content seamlessly."
+            },
+            "productPage": {
+                "dropDownTitle": "Product Page Galleries",
+                "dropDownDesc": "Display shoppable galleries on your online store’s product pages, filtering posts based on each product’s ID.",
+                "publishCodeId": "Add your Product ID identifier variable after the Data Filter ID section in the publish code in Step 3",
+                "publishCodeIdExample": "For Example: data-filter-id=\"{{product-id}}\""
+            },
+            "tagBased": {
+                "dropDownTitle": "Tag-based Widget",
+                "dropDownDescShoppable": "Filter your gallery using tags and easily embed the tag-based gallery anywhere on your e-commerce store.",
+                "dropDownDesc": "Filter your gallery using tags and easily embed the tag-based gallery anywhere on your website.",
+                "selectTag": "Select your tags",
+                "selectTagPlaceholder": "Search for options...",
+                "tagList": "Tag List",
+                "generatecode": "Generate Code"
+            },
+            "rattingSchema": {
+                "dropDownTitle": "Rating Schema",
+                "dropDownDesc": "Display aggregated ratings directly in Google search results to enhance visibility, improve your SEO ranking, and drive more traffic to your web pages.",
+                "selectFeed": "Select feeds",
+                "copyCode": "Copy and paste the schema code on your website <head> </head> section.",
+                "rattingInfo": "This is how your brand looks like in SERP",
+                "sideBar": {
+                    "1": "Steps to add Rating Schema on your Website",
+                    "2": "Copy and paste the schema code on your page head section.",
+                    "3": "Go to your Google console and re-crawl the website URL.",
+                    "4": "Display Star Rating in Search Results",
+                    "5": "A Rating Schema in SERP refers to the structured data markup that helps search engines display star ratings and reviews in search results.",
+                    "6": "<strong> Increases Click-Through Rate (CTR) - </strong> Star ratings and review snippets make your search listing stand out, potentially boosting CTR by up to 30%.",
+                    "7": "<strong> Builds Trust & Credibility - </strong> Users trust pages with verified ratings, making them more likely to click and convert.",
+                    "8": "<strong> Boosts Local SEO - </strong> Ratings for businesses improve local search rankings and attract more customers."
+                },
+                "popup": {
+                    "heading": "Send code by email",
+                    "text": "Share this embed code with your team. Enter the email Id to send the code directly to them"
+                },
+                "nofeed": "No Feeds Available",
+                "selectfeed": "Select Feed"
+            },
+            "plateform": {
+                "1": {
+                    "plateform": "html",
+                    "text": "Copy the generated Publish Code for your HTML gallery",
+                    "0":{
+                        "1": "HTML website",
+                        "2": "and select the landing page where you wish to publish your gallery"
+                    },
+                    "dics": {
+                        "1": "Simply log in to your",
+                        "2": "Paste the publish code into the backend of the page",
+                        "3": "Apply the required changes and Voila! You will have successfully published the #{{replace_text}} gallery on your website"
+                    }
+                },
+                "2": {
+                    "plateform": "shopify",
+                    "text": "Copy the below given Publish Code for your Shopify gallery",
+                    "steps": "Gallery on Shopify",
+                    "publishDesc": "Paste the Publish code into the HTML of your shopify webpage"
+                },
+                "3": {
+                    "plateform": "wordpress",
+                    "text": "Copy the generated Publish Code for your WordPress gallery",
+                    "steps": "Publish On WordPress Website",
+                    "dics": {
+                        "1": "Log in to your WordPress",
+                        "2": "Select and edit the page where you want to publish the gallery and apply changes to display it on your website",
+                        "3": "Click on (+) to add new block and choose custom HTML",
+                        "4": "Paste the copied code",
+                        "5": "Click on Publish/Update post and You're Done!"
+                    }
+                },
+                "4": {
+                    "plateform": "prestashop",
+                    "text": "Copy the generated Publish Code for your Prestashop gallery",
+                    "steps": "Publish On Prestashop Website"
+                },
+                "5": {
+                    "plateform": "bigcommerce",
+                    "text": "Copy the generated Publish Code for your Bigcommerce gallery",
+                    "steps": "Gallery on Bigcommerce",
+                    "publishDesc": "Paste the Publish code into the HTML of your Bigcommerce webpage"
+                },
+                "6": {
+                    "plateform": "magento",
+                    "text": "Copy the generated Publish Code for your Magento gallery",
+                    "steps": "Publish On Magento Website",
+                     "1": "Magento account",
+                    "dics": {
+                        "1": "Log into your ",
+                        "2": "Navigate on the webpage in your Magento website where you want to showcase the #{{replace_text}} Gallery.",
+                        "3": "Paste the copied publish code and click on Apply to complete the process",
+                        "4": "Tadaa! you have now published the #{{replace_text}} gallery on Magento website."
+                    }
+                },
+                "7": {
+                    "plateform": "other",
+                    "text": "Copy the generated Publish Code for your gallery",
+                    "steps": "Publish On Your Website",
+                    "dics": {
+                        "1": "Here you can publish a Gallery on your website using either Javascript code or Iframe.",
+                        "2": "Copy the Generated code from #{{replace_text}} Code Generator",
+                        "3": "You can also adjust the height and width of your #{{replace_text}} Gallery before Generating a code",
+                        "4": "Paste the Code on the backend of your website and save it.",
+                        "5": "You’re Done!"
+                    }
+                },
+                "8": {
+                    "plateform": "wix",
+                    "text": "Copy the generated Publish Code for your Wix gallery",
+                    "steps": "Publish On Wix Website",
+                    "dics": {
+                        "1": "Log in to your Wix account.",
+                        "2": "Select and edit the page where you want to embed the widget and apply changes to display it on your website.",
+                        "3": "Click on (+) to add new block and choose Embed Code and select Embed HTML option.",
+                        "4": "Paste your copied code and click on Update to complete the process!"
+                    }
+                },
+                "9": {
+                    "plateform": "squareSpace",
+                    "text": "Copy the generated Publish Code for your SquareSpace gallery",
+                    "steps": "Publish On SquareSpace Website",
+                    "dics": {
+                        "1": "Log into your Squarespace account and Open the page where you wish to Embed the Widget",
+                        "2": "Click on +Add/Edit Block and Select Code",
+                        "3": "Paste the copied code and click on apply",
+                        "4": "Paste your copied code and click on Update to complete the process!"
+                    }
+                }
+            },
+            "modal": {
+                "ShareCodeModal": {
+                    "text": "Share this embed code with your team. Enter the email Id to send the code directly to them",
+                    "heading": "Send code by email"
+                },
+                "ratingEmptyIcon": {
+                    "desc": "It looks like you haven\"t added any Review feed yet. Create now to show ratings on SERP!",
+                    "title": "No Review Feed",
+                    "text": "Add Feed Now"
+                }
+            },
+            "steps": {
+                "Publish": "Publish",
+                "shoppable": "shoppable",
+                "Shoppable": "Shoppable",
+                "installApp": "Install App",
+                "instructions": "Installation Instructions",
+                "usingtag": "Using Tags"
+            },
+            "autoPublish": {
+                "heading": "Automatic Publishing",
+                "info": "Just select your shopify page, theme, position of gallery, and then click on Publish Gallery.",
+                "not_found": "Data Not Found",
+                "heading2": "Manage Published Galleries",
+                "button": "Add Automatic Publishing",
+                "alt": "Please Note: Manually installed plugins will not appear in this list",
+                "public_gallery": "Publish Gallery",
+                "form": {
+                    "landing_page": "Select Your Shopify Landing Page",
+                    "dawn_theme": "Select Dawn Theme",
+                    "product_page": "Product Page",
+                    "home_page": "Home Page",
+                    "sections": "Section",
+                    "position_on": "Position of Gallery on",
+                    "product": "Product",
+                    "page": "Page",
+                    "error": "No Store Found"
+                }
+            },
+            "autopubTable": {
+                "page": "Page",
+                "position": "Position",
+                "dataInst": "Date Installed",
+                "Preview": "Preview"
+            },
+            "shopifyPublish": {
+                "are_you_sure": "Are you sure",
+                "auto_publish": "Automatic Publishing",
+                "tab_heading": "Theme App Extension",
+                "websiteId": "Website ID",
+                "copy_code": "Copy Code",
+                "copied_code": "Code Copied",
+                "go_customize": "Goto customize section",
+                "menual_publishing": "Manual Publishing",
+                "yes": "Yes",
+                "no": "No",
+                "list": {
+                    "1": "Copy the Website ID.",
+                    "2": "Go to Customize (Online Store → Customize).",
+                    "3": "Click on Add Section.",
+                    "4": "Select Show More and then add {COMPANY_NAME}: Shoppable Instagram.",
+                    "5": "Paste the Website ID and click Save.",
+                    "6": "Drag and position the Section as needed using the left-side panel.",
+                    "7": "If your theme doesn’t support sections, use the Custom Code or Auto Installation Options.",
+                    "8": "You can also edit the Title & Sub-title of your Shoppable gallery.",
+                    "9": "For detailed instructions, check the Installation Video."
+                }
+            },
+            "msg": {
+                "embedGenerated": "Embed code generated successfully",
+                "emptyTag": "Please select tag",
+                "options_found": "No options found",
+                "loadingText": "Loading..."
+            },
+            "commonContent": {
+                "heading": "Publish On HTML Website",
+                "sideBardTitle": "Gallery Type",
+                "sideBarPlateform": "Select Platforms",
+                "adjusted_size": "Adjust the width and height of the Gallery as per your requirement",
+                "publishDesc": " Paste the publish code into the backend of the page",
+                "connectSupport": "Don’t know how to install code? Reach out to our support team",
+                "connectSupportLink": "Connect to Support",
+                "preview": "Preview"
+            }
+        },
+        "more_publish": [
+            {
+                "id": "1",
+                "title": "Buffer",
+                "icon": "buffer",
+                "text": "Connect with Buffer to seamlessly schedule and post user-generated content (UGC) across your social media platforms. Build trust and engage your audience with authentic content."
+            },
+            {
+                "id": "2",
+                "title": "Hubspot",
+                "icon": "hubspot",
+                "text": "Enrich your email campaigns by featuring UGC through HubSpot. Showcase customer reviews and authentic content to boost trust and enhance conversions."
+            },
+            {
+                "id": "3",
+                "title": "Hootsuite",
+                "icon": "hootsuite",
+                "text": "Plan and post user-generated content effortlessly with Hootsuite. Elevate your brand’s presence by maintaining a consistent and trustworthy voice on social media."
+            },
+            {
+                "id": "4",
+                "title": "Zapier",
+                "icon": "zapier",
+                "text": "Automate workflows and connect with thousands of apps using Zapier. Repurpose UGC with ease and integrate it into your existing tools and processes seamlessly."
+            },
+            {
+                "id": "5",
+                "title": "Facebook Ads",
+                "icon": "facebook",
+                "text": "Enhance your ad campaigns on Facebook with engaging UGC. Boost performance and connect with your audience authentically. Got ideas? We’re ready to listen!"
+            },
+            {
+                "id": "6",
+                "title": "Tiktok Ads",
+                "icon": "tiktok",
+                "text": "Create captivating TikTok Ads by integrating user-generated content. Deliver ads that stand out and engage your audience effectively. Have feedback? Share it with us—we value your input!"
+            },
+            {
+                "id": "7",
+                "title": "Request an Integration",
+                "icon": "integration",
+                "text": "Looking for an integration that’s not here? Let us know your requirements, and we’ll explore how we can make it happen to suit your needs."
+            }
+        ]
     }
 }
