@@ -1049,7 +1049,7 @@
         "enter_name": "Enter #{{name}}",
         "add_action": "Add action",
         "delete": "Delete",
-        "upgrade_popup":{
+        "upgrade_popup": {
             "title": "Auto Pilot",
             "dics": "Want to create impressive widgets without spending hours? Auto-pilot is just the feature you need to sieve all the irrelevant posts within minutes! ⚡ Ready to explore? Upgrade your plan.",
             "btn_text": "Upgrade Now"
@@ -1869,7 +1869,11 @@
         "sign_out": "Sign out",
         "already_login": "Already logged in account.",
         "account_switched": "Account switched successfully",
-        "some_error_occured": "Some error occured, please try again later."
+        "some_error_occured": "Some error occured, please try again later.",
+        "payment_incomplete_message": "🚨Payment incomplete! Finish your upgrade to unlock full access to your plan.",
+        "payment_failed_message": "🚨Payment failed! Update your billing info to keep your widget live.",
+        "payment_incomplete_button": "Pay Now",
+        "payment_failed_button": "Update Now"
     },
     "common": {
         "save": "Save",
@@ -3204,18 +3208,18 @@
                 "qr": "QR(Hide/Show)",
                 "bg_color": "Background color"
             },
-              "product_cta": {
+            "product_cta": {
                 "click_redirect": [
-                  {
-                    "label": "Open New Tab",
-                    "value": "1"
-                },
-                {
-                    "label": "Continue Same Tab",
-                    "value": "2"
-                }
-            ]
-          }
+                    {
+                        "label": "Open New Tab",
+                        "value": "1"
+                    },
+                    {
+                        "label": "Continue Same Tab",
+                        "value": "2"
+                    }
+                ]
+            }
         },
         "galleryTypeObj": {
             "landingPage": {
@@ -3363,8 +3367,8 @@
                     "title": "No Review Feed",
                     "text": "Add Feed Now"
                 },
-               "req_platform": {
-                  "title" : "Request a Platform"
+                "req_platform": {
+                    "title": "Request a Platform"
                 }
             },
             "steps": {

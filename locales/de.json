@@ -1049,7 +1049,7 @@
         "enter_name": "#{{name}} eingeben",
         "add_action": "Aktion hinzufügen",
         "delete": "Löschen",
-         "upgrade_popup":{
+        "upgrade_popup": {
             "title": "Auto-Pilot",
             "dics": "Möchten Sie beeindruckende Widgets erstellen, ohne stundenlang daran zu arbeiten? Der Auto-Pilot ist genau die Funktion, die Sie benötigen, um alle irrelevanten Beiträge in wenigen Minuten herauszufiltern! ⚡ Bereit zum Entdecken? Upgraden Sie jetzt Ihren Plan.",
             "btn_text": "Jetzt upgraden"
@@ -1599,28 +1599,28 @@
         "confirm": "Bestätigen",
         "disconnect_msg": "Möchten Sie das Konto trennen?",
         "twitter_advance": {
-            "instruction": "Verwenden Sie die Tabelle unten, um Ihre Abfrage zu erstellen.",
+            "instruction": "Verwenden Sie die folgende Tabelle, um Ihre Abfrage zu erstellen.",
             "th_filter": "Filtern nach:",
             "th_example": "Beispiel",
-            "th_targets": "Zielt auf Tweets:",
+            "th_targets": "Zielt auf Tweets ab:",
             "filter_keywords": "Schlüsselwörter",
             "ex_keywords_1": "grapes banana",
-            "target_keywords_1": "enthält sowohl \"grapes\" als auch \"banana\".",
+            "target_keywords_1": "enthält sowohl „grapes“ als auch „banana“.",
             "ex_keywords_2": "\"good time\"",
-            "target_keywords_2": "enthält die exakte Phrase \"good time\"",
+            "target_keywords_2": "enthält den genauen Ausdruck „good time“",
             "ex_keywords_3": "die OR alive",
-            "target_keywords_3": "enthält entweder \"die\" oder \"alive\" (oder beides)",
+            "target_keywords_3": "enthält entweder „die“ oder „alive“ (oder beides)",
             "ex_keywords_4": "food -drink",
-            "target_keywords_4": "enthält \"food\", aber nicht \"drink\"",
+            "target_keywords_4": "enthält „food“, aber nicht „drink“",
             "ex_keywords_5": "#soul",
-            "target_keywords_5": "enthält den Hashtag \"#soul\"",
+            "target_keywords_5": "enthält den Hashtag „#soul“",
             "ex_keywords_6": "service :)",
-            "target_keywords_6": "enthält \"service\" und eine positive Stimmung.",
+            "target_keywords_6": "enthält „service“ und hat eine positive Stimmung.",
             "ex_keywords_7": "service :(",
-            "target_keywords_7": "enthält \"service\" und eine negative Stimmung.",
+            "target_keywords_7": "enthält „service“ und hat eine negative Stimmung.",
             "filter_questions": "Fragen",
             "ex_questions": "weather ?",
-            "target_questions": "enthält \"weather\" und stellt eine Frage.",
+            "target_questions": "enthält „weather“ und stellt eine Frage.",
             "filter_user": "Benutzer",
             "ex_user_1": "from:@#{{handle}}",
             "target_user_1": "gesendet vom Benutzer @#{{handle}}",
@@ -1628,21 +1628,21 @@
             "target_user_2": "gesendet an den Benutzer @#{{handle}}",
             "ex_user_3": "@#{{handle}}",
             "target_user_3": "erwähnt @#{{handle}}",
-            "filter_location": "Ort",
+            "filter_location": "Standort",
             "ex_location": "#dogs geocode:34.0522342,-118.2436849,10km",
-            "target_location": "enthält den Hashtag \"#dogs\" innerhalb von Los Angeles (10 km Radius)",
+            "target_location": "enthält den Hashtag „#dogs“ innerhalb von Los Angeles (Koordinaten, 10 km Radius)",
             "link_coordinates": "hier",
             "filter_devices": "Geräte / Apps",
             "ex_devices": "news source:instagramfeed",
-            "target_devices": "enthält \"news\" und wurde über InstagramFeed eingetragen",
+            "target_devices": "enthält „news“ und wurde über InstagramFeed gesendet",
             "filter_content": "Inhalt",
             "ex_content": "funny filter:links",
-            "target_content": "enthält \"funny\" und einen Link.",
+            "target_content": "enthält „funny“ und enthält eine URL.",
             "filter_dates": "Daten",
             "ex_dates_1": "champion since:2012-12-24",
-            "target_dates_1": "enthält \"champion\" und wurde seit dem \"2012-12-24\" gesendet (Jahr-Monat-Tag).",
+            "target_dates_1": "enthält „champion“ und wurde seit dem Datum „2012-12-24“ gesendet (Jahr-Monat-Tag).",
             "ex_dates_2": "champion until:2012-12-24",
-            "target_dates_2": "enthält \"champion\" und wurde vor dem \"2012-12-24\" gesendet."
+            "target_dates_2": "enthält „champion“ und wurde vor dem Datum „2012-12-24“ gesendet."
         }
     },
     "page_title": {
@@ -1869,7 +1869,11 @@
         "sign_out": "Abmelden",
         "already_login": "Bereits im Konto angemeldet.",
         "account_switched": "Konto erfolgreich gewechselt",
-        "some_error_occured": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+        "some_error_occured": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+        "payment_incomplete_message": "🚨Zahlung unvollständig! Schließe dein Upgrade ab, um vollen Zugriff auf deinen Plan zu erhalten.",
+        "payment_failed_message": "🚨Zahlung fehlgeschlagen! Aktualisiere deine Zahlungsinformationen, damit dein Widget aktiv bleibt.",
+        "payment_incomplete_button": "Jetzt bezahlen",
+        "payment_failed_button": "Jetzt aktualisieren"
     },
     "common": {
         "save": "Speichern",
@@ -3362,6 +3366,9 @@
                     "desc": "Es scheint, dass Sie noch keinen Review-Feed hinzugefügt haben. Erstellen Sie jetzt einen, um Bewertungen in den SERPs anzuzeigen!",
                     "title": "Kein Review-Feed",
                     "text": "Feed jetzt hinzufügen"
+                },
+                "req_platform": {
+                    "title": "Request a Platform"
                 }
             },
             "steps": {
