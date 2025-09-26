@@ -20,7 +20,13 @@
         "think_email_valid": "If you think your email id valid, please ",
         "existing_t_mbr": "You are an existing member at Taggbox. As Tagembed is part of Taggbox group of companies, enter the same credentials used for Taggbox to log in.",
         "existing_t_emb_mbr": "You are an existing member at Tagembed (Taggbox's partner platform). To log in, simply log in with Tagembed credentials or try another email address.",
-        "go_to_login_page": "Go To Login Page"
+        "go_to_login_page": "Go To Login Page",
+        "pass_length": {
+            "strong": "Strong",
+            "good": "Good",
+            "weak": "Weak",
+            "too_short": "Too Short"
+        }
     },
     "forgot_pass": {
         "welcome_msg": "Forgot Password?",
@@ -60,6 +66,20 @@
         "backup_key_important": "💾 Important: Save this key in a safe place on your computer or device.",
         "reset_qr": "Reset QR and Key",
         "mfa_success": "MFA reset successfully"
+    },
+    "newfeaturePopup": {
+        "1": {
+            "title": "🎉 Introducing #{{companyName}} 2.0  — Built for Better Performance",
+            "content": "We’ve redesigned #{{companyName}} to make your UGC management smoother, faster, and more powerful. Check out what’s new in the quick walkthrough video below 👇"
+        },
+        "2": {
+            "title": "We’ve moved! Tagshop has a new home: #{{companyName}}.com 🚀",
+            "content": "We’ve upgraded everything to make your UGC management smoother, faster, and more powerful. 🎥 Check out what’s new in the quick walkthrough video below 👇"
+        },
+        "3": {
+            "title": "From UGC to Checkout 🛍️",
+            "content": "Turn your UGC content into shoppable galleries for your online store, shop on bio,  email campaigns, and other channels. 🎥 Check out what’s new in the quick walkthrough video below 👇"
+        }
     },
     "referal": {
         "welcome_msg": "💸 Turn Referrals Into Revenue!",
@@ -198,14 +218,13 @@
         "send_url_desc": "Send the connection URL to the account's owner. Enter the email id to share the link directly with them",
         "send_url": "Share Connection URL By Email",
         "connectAccount": "Connect to #{{network}} to pull the content for this feed.",
-        "connectButton": "Continue with"
+        "connectButton": "Continue with",
+        "add_social_network": "Add Social Network"
     },
     "upgrad_plan": {
-        "errorModal": {
-            "heading": "Oops!",
-            "message": "Upgrade your plan to start using #{{company_name}} collaboratively with your teams",
-            "button": "Explore Pricing"
-        }
+        "heading": "Oops!",
+        "message": "Upgrade your plan to start using #{{company_name}} collaboratively with your teams",
+        "button": "Explore Pricing"
     },
     "collab": {
         "title": "Collaborator panel",
@@ -236,7 +255,7 @@
         "heading_access_revoked": "Access Revoked"
     },
     "notification": {
-        "Chat": "All",
+        "tabAll": "All",
         "tabUnread": "Unread",
         "msgall": "No Notifications",
         "msgUnread": "No Unread Notifications",
@@ -545,6 +564,8 @@
         "comments": "Comments",
         "optional": "Optional",
         "submit": "Sumbit",
+        "search": "Search",
+        "carousel_btn": "Carousel",
         "require_ph": "Please mention any specific requirements/terms for approval/rejection. (optional)….",
         "modal": {
             "generalInfo": {
@@ -1480,6 +1501,42 @@
         "btn_create_feed": "Create feed",
         "request_facebook": "This Feature is on Request! Contact us to embed Facebook Hashtags on website.",
         "feed_limit": "Oops, Looks like you have exhausted the feed limit for this plan. Upgrade for more feeds",
+        "networks": {
+            "0": "Manual Uploads",
+            "1": "Twitter",
+            "2": "Instagram",
+            "3": "Facebook",
+            "4": "Google",
+            "5": "Pinterest",
+            "6": "Flickr",
+            "7": "YouTube",
+            "8": "Vimeo",
+            "10": "LinkedIn",
+            "11": "Tumblr",
+            "12": "RSS",
+            "13": "Star",
+            "15": "Workplace",
+            "18": "Instagram",
+            "19": "Yelp",
+            "20": "Slack",
+            "21": "Yammer",
+            "23": "Airbnb",
+            "25": "Soundcloud",
+            "26": "Giphy",
+            "27": "TikTok Business",
+            "28": "Tiktok Personal",
+            "29": "Review Hub",
+            "30": "Vkontakte",
+            "32": "Chrome Extension",
+            "33": "Collab with Creators",
+            "34": "Amazon",
+            "35": "Tripadvisor",
+            "36": "Etsy",
+            "37": "Aliexpress",
+            "38": "Booking",
+            "45": "Bluesky",
+            "46": "Threads"
+        },
         "alert_msg": {
             "26": "Instagram only allows posts from the last 24 hours. If there are no recent posts in the 24-hour duration, then the top 50 posts will be aggregated. Also, all your upcoming posts will be aggregated. Posts collected via hashtags will not include any information of the user.",
             "34": "Initially stories from the last 24 hours will be shown after which all the upcoming stories will be aggregated.",
@@ -1788,7 +1845,8 @@
         "industry_label": "Choose your Industry:",
         "phone_label": "Phone No.",
         "submit_button": "Submit",
-        "skip_button": "I'll do this later"
+        "skip_button": "I'll do this later",
+        "other_industries": "Enter your industry"
     },
     "header": {
         "profile_link": "Profile",
@@ -2183,6 +2241,7 @@
             "publish": "Publish",
             "msg_auto_update_off": "Disabling auto-update will prevent new posts from being fetched, limiting the content while existing posts remain accessible.",
             "msg_status_off": "Disabling this status will hide all collected posts from this feed, affecting visibility and content access.",
+            "msg_delete": "You are about to delete a Gallery that is used in Publish. Deleting the gallery would also delete the corresponding Publish sections.",
             "gallery_already": "Gallery name already exists.",
             "field_req": "#{{title}} name is required"
         },
@@ -2220,12 +2279,10 @@
         "safe_deleted": "Your #{{count}} products are safe.",
         "safe_delete": "Your product is safe.",
         "delete_pro_catalog": "<p>Are you sure you want to delete the product catalog from #{{COMPANY_NAME}}?</p><p class='text-danger fs-10 mb-0'>Attention! Tagged products from this catalog will also be removed.</p>",
+        "delete_all": "Delete All",
+        "delete_selected": "Delete #{{count}}",
         "cancel": "Cancel",
         "delete_pro": "Delete",
-        "subheader_crumbs": {
-            "name": "Product Catalog",
-            "home": "Home"
-        },
         "table_text": {
             "product": "Product",
             "price": "Price",
@@ -2310,7 +2367,39 @@
             "discount_tooltip": "This represents the price after subtracting the discount.",
             "discount_err": "Discounted price should be less than actual price.",
             "valid_url": "Please enter valid url."
-        }
+        },
+        "csm_options": [
+            {
+                "title": "Shopify",
+                "icon": "shopify",
+                "type": "shopify"
+            },
+            {
+                "title": "Google Merchant Center",
+                "icon": "google",
+                "type": "google"
+            },
+            {
+                "title": "BigCommerce",
+                "icon": "bigcommerce",
+                "type": "bmc"
+            },
+            {
+                "title": "Magento",
+                "icon": "magento",
+                "type": "magento"
+            },
+            {
+                "title": "Woocommerce",
+                "icon": "woocommerce",
+                "type": "woocommerce"
+            },
+            {
+                "title": "Manual Upload",
+                "icon": "manual-upload",
+                "type": ""
+            }
+        ]
     },
     "channel": {
         "heading": "Channel",
@@ -2346,6 +2435,24 @@
     },
     "apps_more": {
         "heading": "Apps & more",
+        "download": {
+            "title_upgrade": "Download Images",
+            "dics_upgrade": "Download images from your feed and repurpose it on other marketing touchpoints.",
+            "btn_upgrade": "Upgrade Now",
+            "heading": "Download",
+            "btn_download": "Download Images",
+            "select_wall": "Select Wall",
+            "back": "back",
+            "add_new": "Add New",
+            "tb_wall_name": "Wall Name",
+            "tb_status": "Status",
+            "tb_expire_one": "Expire on",
+            "tb_action": "Action",
+            "no_data": "No Data Available",
+            "in_progress": "In Progress",
+            "status_completed": "Completed"
+        },
+        "menu": "Menu",
         "shoppable": {
             "title": "Shoppable",
             "heading": "Inspire & Convert with UGC",
@@ -2362,7 +2469,29 @@
         },
         "api_access_title": "API Access",
         "api_access_desc": "Get API access with our upgraded plan to integrate Taggbox gallery in your application and make your app stand out.",
-        "talk_to_sales": "Talk to Sales"
+        "talk_to_sales": "Talk to Sales",
+        "features": [
+            {
+                "id": 10,
+                "icon": "bag-shopping",
+                "title": "Shoppable"
+            },
+            {
+                "id": 8,
+                "icon": "plug",
+                "title": "API"
+            },
+            {
+                "id": 9,
+                "icon": "arrow-down-to-line",
+                "title": "Download"
+            },
+            {
+                "id": 11,
+                "icon": "language",
+                "title": "App Language"
+            }
+        ]
     },
     "shoponBio": {
         "select_content": "Select content",
@@ -3070,7 +3199,18 @@
                 "qr": "QR(Hide/Show)",
                 "bg_color": "Background color"
             },
-            "product_cta": {}
+            "product_cta": {
+                "click_redirect": [
+                    {
+                        "label": "Open New Tab",
+                        "value": "1"
+                    },
+                    {
+                        "label": "Continue Same Tab",
+                        "value": "2"
+                    }
+                ]
+            }
         },
         "galleryTypeObj": {
             "landingPage": {
@@ -3120,7 +3260,7 @@
                 "1": {
                     "plateform": "html",
                     "text": "Copy the generated Publish Code for your HTML gallery",
-                    "0":{
+                    "0": {
                         "1": "HTML website",
                         "2": "and select the landing page where you wish to publish your gallery"
                     },
@@ -3133,6 +3273,7 @@
                 "2": {
                     "plateform": "shopify",
                     "text": "Copy the below given Publish Code for your Shopify gallery",
+                    "publish_heading": "Publish Gallery On Shopify Using HTML Code",
                     "steps": "Gallery on Shopify",
                     "publishDesc": "Paste the Publish code into the HTML of your shopify webpage"
                 },
@@ -3156,6 +3297,7 @@
                 "5": {
                     "plateform": "bigcommerce",
                     "text": "Copy the generated Publish Code for your Bigcommerce gallery",
+                    "publish_heading": "Publish Gallery On Bigcommerce Using HTML Code",
                     "steps": "Gallery on Bigcommerce",
                     "publishDesc": "Paste the Publish code into the HTML of your Bigcommerce webpage"
                 },
@@ -3163,7 +3305,7 @@
                     "plateform": "magento",
                     "text": "Copy the generated Publish Code for your Magento gallery",
                     "steps": "Publish On Magento Website",
-                     "1": "Magento account",
+                    "1": "Magento account",
                     "dics": {
                         "1": "Log into your ",
                         "2": "Navigate on the webpage in your Magento website where you want to showcase the #{{replace_text}} Gallery.",
@@ -3266,7 +3408,7 @@
                     "1": "Copy the Website ID.",
                     "2": "Go to Customize (Online Store → Customize).",
                     "3": "Click on Add Section.",
-                    "4": "Select Show More and then add {COMPANY_NAME}: Shoppable Instagram.",
+                    "4": "Select Show More and then add #{{COMPANY_NAME}}: Shoppable Instagram.",
                     "5": "Paste the Website ID and click Save.",
                     "6": "Drag and position the Section as needed using the left-side panel.",
                     "7": "If your theme doesn’t support sections, use the Custom Code or Auto Installation Options.",
