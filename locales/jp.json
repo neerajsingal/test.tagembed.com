@@ -2628,6 +2628,11 @@
         "connectSupportButton": "サポートに接続",
         "shareCodeModalText": "この埋め込みコードをチームと共有。メールIDを入力してコードを直接送信できます",
         "shareCodeModalHeading": "メールでコードを送信",
+        "toastarMsg":{
+            "trackingId": "Google アナリティクスのトラッキング ID を入力してください",
+            "valid_url": "ポップアップ用の有効な URL を入力してください",
+            "cta_url": "CTA 用の有効な URL を入力してください。"
+        },
         "emailPlatformInstructions": {
             "klaviyo": [
                 {

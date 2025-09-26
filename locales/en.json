@@ -2628,6 +2628,11 @@
         "connectSupportButton": "Connect to Support",
         "shareCodeModalText": "Share this embed code with your team. Enter the email Id to send the code directly to them",
         "shareCodeModalHeading": "Send code by email",
+        "toastarMsg":{
+            "trackingId": "Please fill Google Analytics Tracking Id",
+            "valid_url": "Please enter valid url for popup",
+            "cta_url": "Please enter valid url for CTA."
+        },
         "emailPlatformInstructions": {
             "klaviyo": [
                 {
