@@ -1049,6 +1049,11 @@
         "enter_name": "#{{name}} eingeben",
         "add_action": "Aktion hinzufügen",
         "delete": "Löschen",
+         "upgrade_popup":{
+            "title": "Auto-Pilot",
+            "dics": "Möchten Sie beeindruckende Widgets erstellen, ohne stundenlang daran zu arbeiten? Der Auto-Pilot ist genau die Funktion, die Sie benötigen, um alle irrelevanten Beiträge in wenigen Minuten herauszufiltern! ⚡ Bereit zum Entdecken? Upgraden Sie jetzt Ihren Plan.",
+            "btn_text": "Jetzt upgraden"
+        },
         "default_rules": [
             {
                 "class": "primary",

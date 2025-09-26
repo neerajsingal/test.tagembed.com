@@ -1049,6 +1049,11 @@
         "enter_name": "Enter #{{name}}",
         "add_action": "Add action",
         "delete": "Delete",
+        "upgrade_popup":{
+            "title": "Auto Pilot",
+            "dics": "Want to create impressive widgets without spending hours? Auto-pilot is just the feature you need to sieve all the irrelevant posts within minutes! ⚡ Ready to explore? Upgrade your plan.",
+            "btn_text": "Upgrade Now"
+        },
         "default_rules": [
             {
                 "class": "primary",
@@ -3199,18 +3204,18 @@
                 "qr": "QR(Hide/Show)",
                 "bg_color": "Background color"
             },
-            "product_cta": {
+              "product_cta": {
                 "click_redirect": [
-                    {
-                        "label": "Open New Tab",
-                        "value": "1"
-                    },
-                    {
-                        "label": "Continue Same Tab",
-                        "value": "2"
-                    }
-                ]
-            }
+                  {
+                    "label": "Open New Tab",
+                    "value": "1"
+                },
+                {
+                    "label": "Continue Same Tab",
+                    "value": "2"
+                }
+            ]
+          }
         },
         "galleryTypeObj": {
             "landingPage": {
@@ -3357,6 +3362,9 @@
                     "desc": "It looks like you haven\"t added any Review feed yet. Create now to show ratings on SERP!",
                     "title": "No Review Feed",
                     "text": "Add Feed Now"
+                },
+               "req_platform": {
+                  "title" : "Request a Platform"
                 }
             },
             "steps": {
@@ -3408,7 +3416,7 @@
                     "1": "Copy the Website ID.",
                     "2": "Go to Customize (Online Store → Customize).",
                     "3": "Click on Add Section.",
-                    "4": "Select Show More and then add #{{COMPANY_NAME}}: Shoppable Instagram.",
+                    "4": "Select Show More and then add {COMPANY_NAME}: Shoppable Instagram.",
                     "5": "Paste the Website ID and click Save.",
                     "6": "Drag and position the Section as needed using the left-side panel.",
                     "7": "If your theme doesn’t support sections, use the Custom Code or Auto Installation Options.",
