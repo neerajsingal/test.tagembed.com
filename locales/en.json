@@ -2163,7 +2163,11 @@
                 "heading": "Reputation",
                 "talk_to_sales": "Talk to Marketing Experts.",
                 "msg": "Struggling to build Reputation?",
-                "empty_msg": ""
+                "empty_msg": "Know What Your Customers Think!",
+                "empty_desc": "Is your online reputation shaping your brand right? Create a Review Feed to check now!",
+                "empty_btn": "Create Review Feed!",
+                "out_of_count": "Out of #{{count}}",
+                "based_on_reviews": "Based on #{{count}} Reviews"
             },
             "sentiment_posts": {
                 "heading": "Sentiment posts",

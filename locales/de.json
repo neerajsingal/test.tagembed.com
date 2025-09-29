@@ -1963,6 +1963,8 @@
         "total": "Gesamt",
         "post": "Beitrag",
         "posts": "Beiträge",
+        "followers": "Follower",
+        "follower": "Follower", 
         "transaction": "Transaktion",
         "gateway": "Gateway",
         "total_amount": "Gesamtbetrag",
@@ -2161,7 +2163,11 @@
                 "heading": "Reputation",
                 "talk_to_sales": "Mit Marketing-Experten sprechen.",
                 "msg": "Schwierigkeiten beim Aufbau von Reputation?",
-                "empty_msg": ""
+                "empty_msg": "Erfahren Sie, was Ihre Kunden denken!",
+                "empty_desc": "Formt Ihr Online-Ruf Ihre Marke richtig? Erstellen Sie jetzt einen Review-Feed, um es zu überprüfen!",
+                "empty_btn": "Review-Feed erstellen!",
+                "out_of_count": "Von #{{count}}",
+                "based_on_reviews": "Basierend auf #{{count}} Bewertungen"
             },
             "sentiment_posts": {
                 "heading": "Stimmungsbeiträge",

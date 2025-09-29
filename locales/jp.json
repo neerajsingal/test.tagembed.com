@@ -2163,7 +2163,11 @@
                 "heading": "評判",
                 "talk_to_sales": "マーケティング専門家に相談",
                 "msg": "評判構築に苦戦していますか？",
-                "empty_msg": ""
+                "empty_msg": "お客様の声を知ろう！",
+                "empty_desc": "あなたのオンラインでの評判はブランドにどのように影響していますか？今すぐレビュー フィードを作成して確認しましょう！",
+                "empty_btn": "レビュー フィードを作成！",
+                "out_of_count": "#{{count}} 中",
+                "based_on_reviews": "#{{count}} 件のレビューに基づく"
             },
             "sentiment_posts": {
                 "heading": "投稿の感情",
