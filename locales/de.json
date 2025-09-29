@@ -1378,6 +1378,11 @@
         "btn_fs_label": "Schriftgröße",
         "qr_status_label": "QR anzeigen",
         "field_req": "Dieses Feld ist erforderlich",
+        "copy_code": "Code kopieren",
+        "share_code": "Code teilen",
+        "code_copied": "Code kopiert",
+        "message_copied": "Nachricht kopiert",
+        "copy_message": "Nachricht kopieren",
         "collect_label": "Geteilte Inhalte sammeln und anzeigen.",
         "collect_desc1": "Teilen Sie diese URL gerne mit Ihrem Publikum, damit es visuelle nutzergenerierte Inhalte (UGC) und Bewertungen hochladen kann.",
         "collect_desc2": "Setzen Sie UGC kreativ an Ihren Marketing-Touchpoints ein, um Ihr Publikum zu begeistern.",
@@ -1598,6 +1603,9 @@
         "accountDisconnect": "Konto trennen",
         "confirm": "Bestätigen",
         "disconnect_msg": "Möchten Sie das Konto trennen?",
+        "connectAccount":{
+            "tiktok_msg" : "Verbinden Sie Ihr TikTok-Business-Konto für ein besseres Erlebnis"
+        },
         "twitter_advance": {
             "instruction": "Verwenden Sie die folgende Tabelle, um Ihre Abfrage zu erstellen.",
             "th_filter": "Filtern nach:",
@@ -1954,6 +1962,7 @@
         "next_renewal_date": "Nächstes Verlängerungsdatum",
         "total": "Gesamt",
         "post": "Beitrag",
+        "posts": "Beiträge",
         "transaction": "Transaktion",
         "gateway": "Gateway",
         "total_amount": "Gesamtbetrag",
@@ -2057,19 +2066,15 @@
         "confirm_user": "Benutzer bestätigen",
         "user_post": "Beitrag von #{{username}}",
         "invalid_phone_number": "Ungültige Telefonnummer!",
-        "pass_upd_success": "Passwort erfolgreich aktualisiert"
+        "pass_upd_success": "Passwort erfolgreich aktualisiert",
+        "disapprove": "Ablehnen",
+        "out_of_count": "Von #{{count}} erreicht"
     },
     "Analytics": {
         "case_study": {
             "welcome_msg": "Willkommen zurück!",
             "chat_btn": "Jetzt chatten",
             "call_btn": "Termin buchen"
-        },
-        "overview": {
-            "total_feeds": "Gesamtanzahl Feeds",
-            "total_posts": "Gesamtanzahl Beiträge",
-            "widget_views": "Widget-Aufrufe",
-            "total_clicks": "Gesamtanzahl Klicks"
         },
         "gallery": {
             "heading": "Top-Performende Galerien",
@@ -2226,7 +2231,69 @@
             "sentiment": "Stimmung",
             "gallery": "Galerie",
             "go_to_moderation": "Zur Moderation"
-        }
+        },
+        "overview_content": [
+            {
+                "name": "Gesamtanzahl Beiträge",
+                "tooltip": "Gesamte Anzahl der Beiträge in all Ihren Feeds",
+                "description": "Gesamte Anzahl der Beiträge in all Ihren Feeds",
+                "type": "Total Posts"
+            },
+            {
+                "name": "Gesamtbesucher",
+                "tooltip": "Anzahl der Personen, die Ihre Website nach Hinzufügen des Widgets besucht haben",
+                "description": "Anzahl der Personen, die Ihre Website nach Hinzufügen des Widgets besucht haben",
+                "type": "Total Visitors"
+            },
+            {
+                "name": "Gesamtklicks",
+                "tooltip": "Anzahl der Klicks auf das Widget",
+                "description": "Anzahl der Klicks auf das Widget",
+                "type": "Total Clicks"
+            },
+            {
+                "name": "„Mehr anzeigen“-Klicks",
+                "tooltip": "Verhältnis der „Mehr anzeigen“-Klicks zu den Gesamtbesuchern",
+                "description": "Anzahl der Klicks auf 'Mehr anzeigen' im Verhältnis zu den Gesamtbesuchern",
+                "type": "Show More Clicks"
+            },
+            {
+                "name": "CTR",
+                "tooltip": "Verhältnis von Gesamtklicks zu Gesamtbesuchern",
+                "description": "Click-Through-Rate: Gesamtklicks ÷ Gesamtbesucher",
+                "type": "CTR"
+            },
+            {
+                "name": "Durchschnittliche Empfehlungspunktzahl",
+                "tooltip": "Durchschnittliche Empfehlungspunktzahl aller gesammelten Inhalte",
+                "description": "Durchschnittliche Empfehlungspunktzahl aller gesammelten Inhalte",
+                "type": "Avg. Recommendation Score"
+            },
+            {
+                "name": "CTA-Klicks",
+                "tooltip": "Anzahl der Klicks auf Ihre CTA-Schaltfläche",
+                "description": "Anzahl der Klicks auf Ihre CTA-Schaltfläche",
+                "type": "CTA Click"
+            },
+            {
+                "name": "Beitragsklicks",
+                "tooltip": "Gesamtklicks auf Ihre Beiträge",
+                "description": "Gesamtklicks auf Ihre Beiträge",
+                "type": "Post Clicks"
+            },
+            {
+                "name": "Widget-Ansichten",
+                "tooltip": "Anzahl der Personen, die Ihr Widget auf der Website gesehen haben",
+                "description": "Anzahl der Ansichten Ihres Widgets",
+                "type": "Widget Views"
+            },
+            {
+                "name": "Gesamtanzahl Feeds",
+                "tooltip": "Anzahl der sozialen Netzwerke/Review-Feeds in Ihrem Konto",
+                "description": "Anzahl der sozialen Netzwerke oder Review-Feeds, die mit Ihrem Konto verknüpft sind",
+                "type": "Total Feeds"
+            }
+        ]
     },
     "content_gallery": {
         "heading": "Inhalte",
@@ -2628,7 +2695,7 @@
         "connectSupportButton": "Mit Support verbinden",
         "shareCodeModalText": "Teilen Sie diesen Einbettungscode mit Ihrem Team. Geben Sie die E-Mail-Adresse ein, um den Code direkt zu senden",
         "shareCodeModalHeading": "Code per E-Mail senden",
-         "toastarMsg":{
+        "toastarMsg": {
             "trackingId": "Bitte geben Sie die Google-Analytics-Tracking-ID ein",
             "valid_url": "Bitte geben Sie eine gültige URL für das Popup ein",
             "cta_url": "Bitte geben Sie eine gültige URL für den CTA ein."

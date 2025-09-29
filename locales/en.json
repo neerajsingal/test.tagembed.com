@@ -1378,6 +1378,11 @@
         "btn_fs_label": "Font size",
         "qr_status_label": "Show QR",
         "field_req": "This field is required",
+        "copy_code": "Copy Code",
+        "share_code": "Share Code",
+        "code_copied": "Code Copied",
+        "message_copied" : "Message Copied",
+        "copy_message" : "Copy Message",
         "collect_label": "Collect and show shared content.",
         "collect_desc1": "Feel free to share this URL with your audience, enabling them to upload visual user-generated content (UGC) and reviews.",
         "collect_desc2": "Get creative with the UGC on your marketing touchpoints to delight your audience.",
@@ -1598,6 +1603,9 @@
         "accountDisconnect": "Account Disconnect",
         "confirm": "Confirm",
         "disconnect_msg": "Do you want to disconnect account?",
+        "connectAccount":{
+            "tiktok_msg" : "Connect your TikTok Business Account for Better Experience"
+        },
         "twitter_advance": {
             "instruction": "Use the table below to construct your query.",
             "th_filter": "Filter By:",
@@ -1954,6 +1962,9 @@
         "next_renewal_date": "Next Renewal Date",
         "total": "Total",
         "post": "Post",
+        "posts": "Posts",
+        "followers": "Followers", 
+        "follower": "Follower",
         "transaction": "Transaction",
         "gateway": "Gateway",
         "total_amount": "Total Amount",
@@ -2057,19 +2068,15 @@
         "confirm_user": "Confirm User",
         "user_post": "#{{username}}'s Post",
         "invalid_phone_number": "Invalid phone number!",
-        "pass_upd_success": "Password Updated Successfully"
+        "pass_upd_success": "Password Updated Successfully",
+        "disapprove": "disapprove",
+        "out_of_count": "Out of #{{count}}"
     },
     "Analytics": {
         "case_study": {
             "welcome_msg": "Welcome back!",
             "chat_btn": "Chat Now",
             "call_btn": "Book A Call"
-        },
-        "overview": {
-            "total_feeds": "Total Feeds",
-            "total_posts": "Total Posts",
-            "widget_views": "Widget Views",
-            "total_clicks": "Total Clicks"
         },
         "gallery": {
             "heading": "Top Performing Galleries",
@@ -2226,7 +2233,69 @@
             "sentiment": "Sentiment",
             "gallery": "Gallery",
             "go_to_moderation": "Go to Moderation"
-        }
+        },
+        "overview_content": [
+            {
+                "name": "Total Posts",
+                "tooltip": "Collective number of posts on all your feeds",
+                "description": "Collective number of posts on all your feeds",
+                "type": "Total Posts"
+            },
+            {
+                "name": "Total Visitors",
+                "tooltip": "Number of people who visited your website after adding the wall",
+                "description": "Collective number of posts on all your feeds",
+                "type": "Total Visitors"
+            },
+            {
+                "name": "Total Clicks",
+                "tooltip": "Number of times the widget was clicked",
+                "description": "Collective number of posts on all your feeds",
+                "type": "Total Clicks"
+            },
+            {
+                "name": "Show More Clicks",
+                "tooltip": "Ratio of Total show more clicks to Total visitors",
+                "description": "Collective number of posts on all your feeds",
+                "type": "Show More Clicks"
+            },
+            {
+                "name": "CTR",
+                "tooltip": "Ratio of Total clicks to Total visitors",
+                "description": "Collective number of posts on all your feeds",
+                "type": "CTR"
+            },
+            {
+                "name": "Avg. Recommendation Score",
+                "tooltip": "Average recommendation score of all the content collected",
+                "description": "Collective number of posts on all your feeds",
+                "type": "Avg. Recommendation Score"
+            },
+            {
+                "name": "CTA Click",
+                "tooltip": "The number of times viewers clicked on your CTA button.",
+                "description": "The number of times viewers clicked on your CTA button.",
+                "type": "CTA Click"
+            },
+            {
+                "name": "Post Clicks",
+                "tooltip": "Total clicks your posts received.",
+                "description": "Total clicks your posts received.",
+                "type": "Post Clicks"
+            },
+            {
+                "name": "Widget Views",
+                "tooltip": "Number of people who visited your website after adding the wall",
+                "description": "Collective number of posts on all your feeds",
+                "type": "Widget Views"
+            },
+            {
+                "name": "Total Feeds",
+                "tooltip": "Number of social/reviews networks in your account.",
+                "description": "Number of social/reviews networks in your account.",
+                "type": "Total Feeds"
+            }
+        ]
     },
     "content_gallery": {
         "heading": "Content",
@@ -2628,7 +2697,7 @@
         "connectSupportButton": "Connect to Support",
         "shareCodeModalText": "Share this embed code with your team. Enter the email Id to send the code directly to them",
         "shareCodeModalHeading": "Send code by email",
-        "toastarMsg":{
+        "toastarMsg": {
             "trackingId": "Please fill Google Analytics Tracking Id",
             "valid_url": "Please enter valid url for popup",
             "cta_url": "Please enter valid url for CTA."

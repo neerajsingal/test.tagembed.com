@@ -1378,6 +1378,11 @@
         "btn_fs_label": "フォントサイズ",
         "qr_status_label": "QRを表示",
         "field_req": "このフィールドは必須です",
+        "copy_code": "コードをコピー",
+        "share_code": "コードを共有",
+        "code_copied": "コードをコピーしました",
+        "message_copied": "メッセージをコピーしました",
+        "copy_message": "メッセージをコピー",
         "collect_label": "共有されたコンテンツを収集して表示。",
         "collect_desc1": "このURLをオーディエンスと共有して、ビジュアルUGCやレビューをアップロードできるようにしましょう。",
         "collect_desc2": "マーケティングタッチポイントでUGCを活用して、オーディエンスを楽しませましょう。",
@@ -1598,6 +1603,9 @@
         "accountDisconnect": "アカウント切断",
         "confirm": "確認",
         "disconnect_msg": "アカウントを切断しますか？",
+        "connectAccount": {
+            "tiktok_msg": "より良い体験のために TikTok ビジネスアカウントを接続してください"
+        },
         "twitter_advance": {
             "instruction": "以下の表を使用してクエリを構築してください。",
             "th_filter": "フィルター:",
@@ -1954,6 +1962,9 @@
         "next_renewal_date": "次回更新日",
         "total": "合計",
         "post": "投稿",
+        "posts": "投稿",
+        "followers": "フォロワー",
+        "follower": "フォロワー",
         "transaction": "トランザクション",
         "gateway": "ゲートウェイ",
         "total_amount": "合計金額",
@@ -2057,19 +2068,15 @@
         "confirm_user": "ユーザーを確認",
         "user_post": "#{{username}}さんの投稿",
         "invalid_phone_number": "無効な電話番号です！",
-        "pass_upd_success": "パスワードが正常に更新されました"
+        "pass_upd_success": "パスワードが正常に更新されました",
+        "disapprove": "不承認",
+        "out_of_count": "#{{count}}を超過"
     },
     "Analytics": {
         "case_study": {
             "welcome_msg": "おかえりなさい！",
             "chat_btn": "チャットする",
             "call_btn": "コール予約"
-        },
-        "overview": {
-            "total_feeds": "合計フィード",
-            "total_posts": "合計投稿",
-            "widget_views": "ウィジェット閲覧数",
-            "total_clicks": "合計クリック数"
         },
         "gallery": {
             "heading": "最もパフォーマンスの高いギャラリー",
@@ -2226,7 +2233,69 @@
             "sentiment": "感情",
             "gallery": "ギャラリー",
             "go_to_moderation": "モデレーションへ移動"
-        }
+        },
+        "overview_content": [
+            {
+                "name": "総投稿数",
+                "tooltip": "すべてのフィードの投稿の合計数",
+                "description": "すべてのフィードの投稿の合計数",
+                "type": "Total Posts"
+            },
+            {
+                "name": "総訪問者数",
+                "tooltip": "ウォールを追加した後にウェブサイトを訪れた人の数",
+                "description": "すべてのフィードの投稿の合計数",
+                "type": "Total Visitors"
+            },
+            {
+                "name": "総クリック数",
+                "tooltip": "ウィジェットがクリックされた回数",
+                "description": "すべてのフィードの投稿の合計数",
+                "type": "Total Clicks"
+            },
+            {
+                "name": "「もっと見る」クリック数",
+                "tooltip": "総訪問者数に対する「もっと見る」クリックの比率",
+                "description": "すべてのフィードの投稿の合計数",
+                "type": "Show More Clicks"
+            },
+            {
+                "name": "CTR",
+                "tooltip": "総クリック数に対する総訪問者数の比率",
+                "description": "すべてのフィードの投稿の合計数",
+                "type": "CTR"
+            },
+            {
+                "name": "平均推奨スコア",
+                "tooltip": "収集されたすべてのコンテンツの平均推奨スコア",
+                "description": "すべてのフィードの投稿の合計数",
+                "type": "Avg. Recommendation Score"
+            },
+            {
+                "name": "CTAクリック",
+                "tooltip": "閲覧者がCTAボタンをクリックした回数",
+                "description": "閲覧者がCTAボタンをクリックした回数",
+                "type": "CTA Click"
+            },
+            {
+                "name": "投稿クリック数",
+                "tooltip": "投稿が受け取った総クリック数",
+                "description": "投稿が受け取った総クリック数",
+                "type": "Post Clicks"
+            },
+            {
+                "name": "ウィジェットビュー",
+                "tooltip": "ウォールを追加した後にウェブサイトを訪れた人の数",
+                "description": "すべてのフィードの投稿の合計数",
+                "type": "Widget Views"
+            },
+            {
+                "name": "総フィード数",
+                "tooltip": "アカウント内のソーシャル／レビュー ネットワークの数",
+                "description": "アカウント内のソーシャル／レビュー ネットワークの数",
+                "type": "Total Feeds"
+            }
+        ]
     },
     "content_gallery": {
         "heading": "コンテンツ",
@@ -2628,7 +2697,7 @@
         "connectSupportButton": "サポートに接続",
         "shareCodeModalText": "この埋め込みコードをチームと共有。メールIDを入力してコードを直接送信できます",
         "shareCodeModalHeading": "メールでコードを送信",
-        "toastarMsg":{
+        "toastarMsg": {
             "trackingId": "Google アナリティクスのトラッキング ID を入力してください",
             "valid_url": "ポップアップ用の有効な URL を入力してください",
             "cta_url": "CTA 用の有効な URL を入力してください。"
