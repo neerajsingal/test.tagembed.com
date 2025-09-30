@@ -2070,7 +2070,10 @@
         "invalid_phone_number": "Ungültige Telefonnummer!",
         "pass_upd_success": "Passwort erfolgreich aktualisiert",
         "disapprove": "Ablehnen",
-        "out_of_count": "Von #{{count}} erreicht"
+        "out_of_count": "Von #{{count}} erreicht",
+        "language_change_msg": "Diese Aktion ändert die App-Sprache zu #{{lang}}.",
+        "language_primary_btn": "Ja, wechsle zu #{{lang}}",
+        "language_secondary_btn": "Aktuelle Sprache behalten"
     },
     "Analytics": {
         "case_study": {
@@ -2167,7 +2170,8 @@
                 "empty_desc": "Formt Ihr Online-Ruf Ihre Marke richtig? Erstellen Sie jetzt einen Review-Feed, um es zu überprüfen!",
                 "empty_btn": "Review-Feed erstellen!",
                 "out_of_count": "Von #{{count}}",
-                "based_on_reviews": "Basierend auf #{{count}} Bewertungen"
+                "based_on_reviews": "Basierend auf #{{count}} Bewertungen",
+                "star_count": "#{{count}} Stern"
             },
             "sentiment_posts": {
                 "heading": "Stimmungsbeiträge",

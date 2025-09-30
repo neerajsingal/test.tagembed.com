@@ -2070,7 +2070,10 @@
         "invalid_phone_number": "無効な電話番号です！",
         "pass_upd_success": "パスワードが正常に更新されました",
         "disapprove": "不承認",
-        "out_of_count": "#{{count}}を超過"
+        "out_of_count": "#{{count}}を超過",
+        "language_change_msg": "この操作により、アプリの言語が #{{lang}} に変更されます。",
+        "language_primary_btn": "はい、#{{lang}} に切り替えます",
+        "language_secondary_btn": "現在の言語を維持する"
     },
     "Analytics": {
         "case_study": {
@@ -2167,7 +2170,8 @@
                 "empty_desc": "あなたのオンラインでの評判はブランドにどのように影響していますか？今すぐレビュー フィードを作成して確認しましょう！",
                 "empty_btn": "レビュー フィードを作成！",
                 "out_of_count": "#{{count}} 中",
-                "based_on_reviews": "#{{count}} 件のレビューに基づく"
+                "based_on_reviews": "#{{count}} 件のレビューに基づく",
+                "star_count": "#{{count}} スター"
             },
             "sentiment_posts": {
                 "heading": "投稿の感情",

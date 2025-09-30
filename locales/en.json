@@ -2070,7 +2070,10 @@
         "invalid_phone_number": "Invalid phone number!",
         "pass_upd_success": "Password Updated Successfully",
         "disapprove": "disapprove",
-        "out_of_count": "Out of #{{count}}"
+        "out_of_count": "Out of #{{count}}",
+        "language_change_msg": "This action will change the app language to #{{lang}}.",
+        "language_primary_btn": "Yes, switch to #{{lang}}",
+        "language_secondary_btn": "Keep current language"
     },
     "Analytics": {
         "case_study": {
@@ -2167,7 +2170,8 @@
                 "empty_desc": "Is your online reputation shaping your brand right? Create a Review Feed to check now!",
                 "empty_btn": "Create Review Feed!",
                 "out_of_count": "Out of #{{count}}",
-                "based_on_reviews": "Based on #{{count}} Reviews"
+                "based_on_reviews": "Based on #{{count}} Reviews",
+                "star_count": "#{{count}} Star"
             },
             "sentiment_posts": {
                 "heading": "Sentiment posts",
