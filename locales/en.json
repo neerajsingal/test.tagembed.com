@@ -1367,6 +1367,7 @@
         "title_ph": "Enter Title...",
         "sub_title_label": "Sub Title",
         "sub_title_ph": "Enter Sub Title...",
+        "language_label": "Choose Language",
         "logo_label": "Logo",
         "bg_color_label": "Background color",
         "bg_img_label": "Background Image",
