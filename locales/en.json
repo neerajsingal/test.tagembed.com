@@ -2077,7 +2077,9 @@
         "out_of_count": "Out of #{{count}}",
         "language_change_msg": "This action will change the app language to #{{lang}}.",
         "language_primary_btn": "Yes, switch to #{{lang}}",
-        "language_secondary_btn": "Keep current language"
+        "language_secondary_btn": "Keep current language",
+        "language_change_website": "This action will immediately change the display language of the embedded widget on your website to #{{lang}}.",
+        "refresh": "Refresh"
     },
     "Analytics": {
         "case_study": {
@@ -2958,7 +2960,7 @@
             "google_analytics_heading": "Google analytics",
             "snap_up_heading": "Review hub settings",
             "website_title": "Website Language",
-            "website_desc": "Language selection will affect the language of the website within few minutes.",
+            "website_desc": "Language translation starts immediately but requires a brief period to process and update on your live embed.",
             "we_here": "We’re here",
             "connect_to_support": "Connect to Support",
             "need_help": "Need help customizing?",

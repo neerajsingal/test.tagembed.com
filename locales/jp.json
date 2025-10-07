@@ -2077,7 +2077,9 @@
         "out_of_count": "#{{count}}を超過",
         "language_change_msg": "この操作により、アプリの言語が #{{lang}} に変更されます。",
         "language_primary_btn": "はい、#{{lang}} に切り替えます",
-        "language_secondary_btn": "現在の言語を維持する"
+        "language_secondary_btn": "現在の言語を維持する",
+        "language_change_website": "この操作により、ウェブサイトに埋め込まれたウィジェットの表示言語がすぐに#{{lang}}に変更されます。",
+        "refresh": "更新"
     },
     "Analytics": {
         "case_study": {
@@ -2958,7 +2960,7 @@
             "google_analytics_heading": "Googleアナリティクス",
             "snap_up_heading": "レビュー設定",
             "website_title": "ウェブサイトの言語",
-            "website_desc": "言語の選択は数分以内にウェブサイトの言語に反映されます。",
+            "website_desc": "言語の翻訳はすぐに開始されますが、ライブ埋め込みに反映されるまでには少し時間がかかります。",
             "we_here": "私たちがサポートします",
             "connect_to_support": "サポートに接続",
             "need_help": "カスタマイズでお困りですか？",
