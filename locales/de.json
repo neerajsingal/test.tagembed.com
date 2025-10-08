@@ -531,6 +531,7 @@
         "single_post_embed": "Einzelbeitrag einbetten",
         "btn_litecode": "Litecode",
         "btn_iframe": "Iframe",
+        "iframe_note": "Hinweis*: Um zu verhindern, dass das Widget zusammenfällt oder ausgeblendet wird, stellen Sie sicher, dass das übergeordnete Container-Element (in dem das iFrame platziert ist) eine explizite Höhe oder Mindesthöhe definiert hat.",
         "tooltip_copy": "Code kopieren",
         "tooltip_copied": "Code kopiert",
         "label_caption": "Untertitel einfügen",
@@ -3610,5 +3611,26 @@
                 "text": "Suchen Sie eine Integration, die hier nicht verfügbar ist? Teilen Sie uns Ihre Anforderungen mit, und wir prüfen, wie wir diese passend für Ihre Bedürfnisse umsetzen können."
             }
         ]
+    },
+    "sideBar": {
+        "home": "Startseite",
+        "networkManager": "Netzwerk-Manager",
+        "contentGallery": "Inhaltsgalerie",
+        "productCatalog": "Produktkatalog",
+        "publish": "Anpassen & Veröffentlichen",
+        "appsMore": "Apps & mehr",
+        "analytics": "Analysen",
+        "publish_": "Veröffentlichen",
+        "autopilot": "Autopilot",
+        "addFeed": "Feed hinzufügen",
+        "manageFeed": "Feeds verwalten",
+        "reviewHub": "Bewertungszentrum",
+        "content": "Inhalt",
+        "referEarn": "Empfehlen & Verdienen",
+        "profile": "Profil",
+        "plan_details": "Plandetails",
+        "social_accounts": "Soziale Konten",
+        "collaborator": "Mitarbeiter",
+        "mfa_authenticator": "MFA Authentifikator"
     }
 }
