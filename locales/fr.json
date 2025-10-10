@@ -386,6 +386,7 @@
         "filter_add": "Ajouter un filtre",
         "filter_tags": "Tags des publications",
         "filter_feeds": "Flux sociaux",
+        "filter_language": "Langue des publications",
         "filter_type": "Type de publication",
         "filter_ai": "Recommandation AI",
         "filter_sentiment": "Sentiment",
@@ -573,7 +574,7 @@
         "modal": {
             "generalInfo": {
                 "heading": "Informations générales",
-                "button": "Aller à la modération",
+                "button": "Aller à la Modération",
                 "clicks": "Clics",
                 "views": "Vues",
                 "sentiment": "Sentiment",
@@ -2077,7 +2078,9 @@
         "out_of_count": "Sur #{{count}}",
         "language_change_msg": "Cette action changera la langue de l'application en #{{lang}}.",
         "language_primary_btn": "Oui, passer à #{{lang}}",
-        "language_secondary_btn": "Conserver la langue actuelle"
+        "language_secondary_btn": "Conserver la langue actuelle",
+        "language_change_website": "Cela changera la langue du widget intégré sur votre site Web en #{{lang}}.",
+        "refresh": "Rafraîchir"
     },
     "Analytics": {
         "case_study": {
@@ -2957,6 +2960,10 @@
             "hash_highlighter_heading": "Surligneur de hashtag",
             "google_analytics_heading": "Google Analytics",
             "snap_up_heading": "Paramètres du hub d'avis",
+            "website_title": "Sprache auswählen",
+            "localization": "Lokalisierung",
+            "localization_info": "Verwenden Sie die auf der Plattform verfügbaren Sprachen, um das Widget für Ihre Webseitenbesucher zu lokalisieren.",
+            "website_desc": "Die Übersetzung der Sprache startet sofort, benötigt jedoch einen kurzen Moment, um verarbeitet zu werden und auf Ihrem Live-Widget aktualisiert zu werden.",
             "we_here": "Nous sommes là",
             "connect_to_support": "Se connecter au support",
             "need_help": "Besoin d’aide pour personnaliser ?",

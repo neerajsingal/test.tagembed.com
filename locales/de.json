@@ -574,7 +574,7 @@
         "modal": {
             "generalInfo": {
                 "heading": "Allgemeine Informationen",
-                "button": "Zur Moderation",
+                "button": "Zur Moderation gehen",
                 "clicks": "Klicks",
                 "views": "Aufrufe",
                 "sentiment": "Stimmung",
@@ -2079,7 +2079,7 @@
         "language_change_msg": "Diese Aktion ändert die App-Sprache zu #{{lang}}.",
         "language_primary_btn": "Ja, wechsle zu #{{lang}}",
         "language_secondary_btn": "Aktuelle Sprache behalten",
-        "language_change_website": "Diese Aktion ändert sofort die Anzeigesprache des eingebetteten Widgets auf Ihrer Website zu #{{lang}}.",
+        "language_change_website": "Dadurch wird die Sprache des eingebetteten Widgets auf Ihrer Website auf #{{lang}} geändert.",
         "refresh": "Aktualisieren"
     },
     "Analytics": {

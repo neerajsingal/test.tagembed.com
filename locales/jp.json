@@ -298,22 +298,22 @@
         "tailored_plan_desc": "企業のニーズに合わせたカスタムプラン。パーソナライズされたカスタマイズ、スケーラブルなオプション、専用サポート、シームレスな統合、成長志向のソリューションで成功を促進します。",
         "enterprises_features": [
             {
-                "key": "Custom Feeds"
+                "key": "カスタムフィード"
             },
             {
-                "key": "API Access"
+                "key": "APIアクセス"
             },
             {
-                "key": "Collaborator"
+                "key": "コラボレーター"
             },
             {
-                "key": "Security Assessment & DPA"
+                "key": "セキュリティ評価 & DPA"
             },
             {
-                "key": "Real Time Update"
+                "key": "リアルタイム更新"
             },
             {
-                "key": "White Label"
+                "key": "ホワイトラベル"
             }
         ],
         "just_pay": "支払うだけ",
@@ -574,7 +574,7 @@
         "modal": {
             "generalInfo": {
                 "heading": "一般情報",
-                "button": "モデレーションに移動",
+                "button": "モデレーションへ移動",
                 "clicks": "クリック数",
                 "views": "表示回数",
                 "sentiment": "感情分析",
@@ -2079,7 +2079,7 @@
         "language_change_msg": "この操作により、アプリの言語が #{{lang}} に変更されます。",
         "language_primary_btn": "はい、#{{lang}} に切り替えます",
         "language_secondary_btn": "現在の言語を維持する",
-        "language_change_website": "この操作により、ウェブサイトに埋め込まれたウィジェットの表示言語がすぐに#{{lang}}に変更されます。",
+        "language_change_website": "これにより、ウェブサイトに埋め込まれたウィジェットの言語が #{{lang}} に変更されます。",
         "refresh": "更新"
     },
     "Analytics": {

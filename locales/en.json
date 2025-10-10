@@ -574,7 +574,7 @@
         "modal": {
             "generalInfo": {
                 "heading": "General Information",
-                "button": "Got to Moderation",
+                "button": "Go to Moderation",
                 "clicks": "Clicks",
                 "views": "Views",
                 "sentiment": "Sentiment",
@@ -2077,9 +2077,9 @@
         "disapprove": "disapprove",
         "out_of_count": "Out of #{{count}}",
         "language_change_msg": "This action will change the app language to #{{lang}}.",
-        "language_primary_btn": "Yes, switch to #{{lang}}",
-        "language_secondary_btn": "Keep current language",
-        "language_change_website": "This action will immediately change the display language of the embedded widget on your website to #{{lang}}.",
+        "language_primary_btn": "Yes, Switch to #{{lang}}",
+        "language_secondary_btn": "Keep Current Language",
+        "language_change_website": "This will change the language of the embedded widget on your website to #{{lang}}.",
         "refresh": "Refresh"
     },
     "Analytics": {
