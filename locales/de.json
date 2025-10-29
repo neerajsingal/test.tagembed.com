@@ -1582,7 +1582,7 @@
             "80": "URL eingeben - https://www.tripadvisor.co.za/Hotel_Review-g2539271-d4428120-Reviews....",
             "default": "Geben Sie #{{feedType}} ein"
         },
-        "hashtagCaption": "Nur Beiträge mit Hashtag in der Beschriftung erhalten. Neue Caption",
+        "hashtagCaption": "Erhalten Sie Beiträge, die den Hashtag nur in der Bildunterschrift enthalten.",
         "hashtagIGTV": "Videos ausschließen.",
         "onlyReels": "Nur Reels. <span class=\"badge badge-primary ms-1 m-0 py-1\">Neu</span>",
         "moderation": "Beiträge manuell freigeben, bevor sie öffentlich werden?",
@@ -1886,7 +1886,9 @@
         "payment_incomplete_message": "🚨Zahlung unvollständig! Schließe dein Upgrade ab, um vollen Zugriff auf deinen Plan zu erhalten.",
         "payment_failed_message": "🚨Zahlung fehlgeschlagen! Aktualisiere deine Zahlungsinformationen, damit dein Widget aktiv bleibt.",
         "payment_incomplete_button": "Jetzt bezahlen",
-        "payment_failed_button": "Jetzt aktualisieren"
+        "payment_failed_button": "Jetzt aktualisieren",
+        "offer_strip": "⏰ Beeilen Sie sich! 40 % RABATT auf Jahrespläne – Angebot endet in:",
+        "grab_it_now": "Jetzt sichern"
     },
     "common": {
         "save": "Speichern",

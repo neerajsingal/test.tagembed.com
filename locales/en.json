@@ -1582,7 +1582,7 @@
             "80": "Enter URL - https://www.tripadvisor.co.za/Hotel_Review-g2539271-d4428120-Reviews....",
             "default": "Enter #{{feedType}}"
         },
-        "hashtagCaption": "Get posts containing hashtag only in caption. new Captin",
+        "hashtagCaption": "Get posts containing hashtag only in caption.",
         "hashtagIGTV": "Exclude Videos.",
         "onlyReels": "Only Reels. <span class=\"badge badge-primary ms-1 m-0 py-1\">New</span>",
         "moderation": "Manually approve posts before making them public?",
@@ -1886,7 +1886,9 @@
         "payment_incomplete_message": "🚨Payment incomplete! Finish your upgrade to unlock full access to your plan.",
         "payment_failed_message": "🚨Payment failed! Update your billing info to keep your widget live.",
         "payment_incomplete_button": "Pay Now",
-        "payment_failed_button": "Update Now"
+        "payment_failed_button": "Update Now",
+        "offer_strip": "⏰ Hurry! 40% OFF Yearly Plans – Sale Ends in :",
+        "grab_it_now": "Grab it now"
     },
     "common": {
         "save": "Save",
@@ -3536,7 +3538,7 @@
                 "websiteId": "Website ID",
                 "copy_code": "Copy Code",
                 "copied_code": "Code Copied",
-                "go_customize": "Goto customize section",
+                "go_customize": "Go to customize section",
                 "menual_publishing": "Manual Publishing",
                 "yes": "Yes",
                 "no": "No",
@@ -3634,5 +3636,44 @@
         "social_accounts": "Social accounts",
         "collaborator": "Collaborator",
         "mfa_authenticator": "MFA Authenticator"
+    },
+    "postScheduler": {
+        "choose":"Choose",
+        "contentSource":"Content Source",
+        "fromAppAccount":"From App Account",
+        "fromDevice":"From Device",
+        "whereToPublish":"Where to publish",
+        "connectOthers":"Connect Others",
+        "connectedAccounts":"Connected Accounts",
+        "postCaption":"Post Caption",
+        "publishingSetting":"Publishing Setting",
+        "publishNow":"Publish Now",
+        "schedulePost":"Schedule Post",
+        "saveDraft":"Save Draft",
+        "fromApp":"From App",
+        "selectPost":"Select post image to publish on social media",
+        "postMedia":"Post Media",
+        "title" : "Post Scheduler",
+        "writeWithAI" : "Write with AI",
+        "timeZone" : "Time Zone",
+        "sheduleTime" : "Schedule Date & Time",
+        "uploadMedia":"Upload Media",
+        "uploadMediaMsg":"Video size: Max 100MB Duration 01min | Image size: Max 50 MB",
+        "generate":"Generate",
+        "reGenerate":"Re Generate",
+        "postPreview":"Post Preview",
+        "tab":{
+            "allChannels":"All Channels",
+            "emailCampaign":"Email Campaign",
+            "shopOnBio":"ShopOn.Bio",
+            "website":"Website",
+            "socialPublish":"Social Publish"
+        },
+        "content" : {
+            "tableHead": [ "Post Preview", "Status", "Source", "Created Date", "Action" ],
+            "scheduleFor": "Schedule For",
+            "rename": "Rename",
+            "delete": "Delete"
+        }
     }
 }
