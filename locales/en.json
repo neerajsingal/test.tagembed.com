@@ -3662,6 +3662,13 @@
         "generate":"Generate",
         "reGenerate":"Re Generate",
         "postPreview":"Post Preview",
+        "msg_1":"Your current post selections will be lost if you change the gallery",
+        "msg_2":"Please Select Post",
+        "msg_3":"Please Select Account",
+        "emt_msg":"No Posts Available",
+        "emt_desc":"To begin scheduling posts using Social Publish, you must first create a feed.",
+        "emt_button":"Add Feed",
+        "aiPromptPlaceholder":"Describe what your caption should be about",
         "tab":{
             "allChannels":"All Channels",
             "emailCampaign":"Email Campaign",
