@@ -3653,7 +3653,7 @@
         "fromApp":"From App",
         "selectPost":"Select post image to publish on social media",
         "postMedia":"Post Media",
-        "title" : "Post Scheduler",
+        "title" : "Social Publish",
         "writeWithAI" : "Write with AI",
         "timeZone" : "Time Zone",
         "sheduleTime" : "Schedule Date & Time",
@@ -3670,9 +3670,9 @@
             "socialPublish":"Social Publish"
         },
         "content" : {
-            "tableHead": [ "Post Preview", "Status", "Source", "Created Date", "Action" ],
+            "tableHead": [ "Post Preview", "Status", "Source", "Created Date", "Actions" ],
             "scheduleFor": "Schedule For",
-            "rename": "Rename",
+            "rename": "Edit",
             "delete": "Delete"
         }
     }
