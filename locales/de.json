@@ -3648,7 +3648,7 @@
         "timeZone": "Zeitzone",
         "sheduleTime": "Geplanter Termin & Uhrzeit",
         "uploadMedia": "Medien hochladen",
-        "uploadMediaMsg": "Videogröße: max. 100 MB, Dauer 1 Min. | Bildgröße: max. 50 MB",
+        "uploadMediaMsg": "Videogröße: max. 100 MB, Dauer 1 Min. | Bildgröße: max. 20 MB",
         "generate": "Generieren",
         "reGenerate": "Neu generieren",
         "postPreview": "Beitragsvorschau",
@@ -3688,5 +3688,9 @@
     "localization_pop": {
         "title": "Lokalisierung",
         "dics": "Nutzen Sie die Taggbox-Lokalisierung, um Ihr Widget sofort in jede Sprache zu übersetzen. Sprechen Sie Benutzer direkt in ihrer Muttersprache an, um Ihre globale Reichweite und Wirkung zu maximieren."
-    }
+    },
+    "postScheduler_pop": {
+    "title": "Möchten Sie mehr UGC in sozialen Medien veröffentlichen?",
+    "dics": "🎉 Gute Nachrichten! Ihr UGC erzielt großartige Ergebnisse. Bereit, weiter zu wachsen und noch mehr Publikum zu erreichen?"
+}
 }
