@@ -161,33 +161,21 @@
             {
                 "label": "Venues",
                 "value": "会場"
-            }
-        ],
-        "designation_list": [
-            {
-                "label": "社長",
-                "value": "CEO"
-            },
-            {
-                "value": "Developer",
-                "label": "開発者"
-            },
-            {
-                "value": "Digital Marketing Manager",
-                "label": "デジタルマーケティングマネージャー"
-            },
-            {
-                "value": "Social Media Manager",
-                "label": "ソーシャルメディアマネージャー"
-            },
-            {
-                "value": "Product Manager",
-                "label": "プロダクトマネージャー"
             },
             {
                 "value": "Others",
-                "label": "その他"
+                "label": "Others"
             }
+        ],
+        "designation_list": [
+            { "label": "最高経営責任者 (CEO)", "value": "CEO" },
+            { "label": "マーケティングマネージャー", "value": "Marketing Manager" },
+            { "label": "ソーシャルメディアマネージャー", "value": "Social Media Manager" },
+            { "label": "Eコマースマーケティングマネージャー", "value": "Ecommerce Marketing Manager" },
+            { "label": "開発者", "value": "Developer" },
+            { "label": "デザイナー", "value": "Designer" },
+            { "label": "プロダクトマネージャー", "value": "Product Manager" },
+            { "label": "その他", "value": "Others" }
         ]
     },
     "plan": {
@@ -1861,10 +1849,12 @@
         "getting_started_link": "私たちが案内します。",
         "title": "#{{COMPANY_NAME}}の体験をパーソナライズしましょう！",
         "industry_label": "業界を選択してください：",
+        "designation_label": "職種を選択してください:",
         "phone_label": "電話番号",
         "submit_button": "送信",
         "skip_button": "後で行う",
-        "other_industries": "業界を入力してください"
+        "other_industries": "業界を入力してください",
+        "other_designation": "職種を入力してください"
     },
     "header": {
         "profile_link": "プロフィール",
@@ -3636,5 +3626,67 @@
         "social_accounts": "ソーシャルアカウント",
         "collaborator": "コラボレーター",
         "mfa_authenticator": "MFA認証"
+    },
+    "postScheduler": {
+        "choose": "選択",
+        "contentSource": "コンテンツソース",
+        "fromAppAccount": "アプリアカウントから",
+        "fromDevice": "デバイスから",
+        "whereToPublish": "投稿先を選択",
+        "connectOthers": "他のアカウントを接続",
+        "connectedAccounts": "接続済みアカウント",
+        "postCaption": "投稿キャプション",
+        "publishingSetting": "投稿設定",
+        "publishNow": "今すぐ投稿",
+        "schedulePost": "投稿を予約",
+        "saveDraft": "下書きを保存",
+        "fromApp": "ギャラリーから",
+        "selectPost": "SNSに投稿する画像を選択してください",
+        "postMedia": "投稿メディア",
+        "title": "ソーシャル投稿",
+        "writeWithAI": "AIで作成",
+        "timeZone": "タイムゾーン",
+        "sheduleTime": "予約日時",
+        "uploadMedia": "メディアをアップロード",
+        "uploadMediaMsg": "動画サイズ：最大100MB（1分以内）｜画像サイズ：最大50MB",
+        "generate": "生成",
+        "reGenerate": "再生成",
+        "postPreview": "投稿プレビュー",
+        "msg_1": "ギャラリーを変更すると現在の投稿選択が失われます。",
+        "msg_2": "投稿を選択してください",
+        "msg_3": "アカウントを選択してください",
+        "msg_4": "最大10件の投稿のみ選択できます",
+        "msg_5": "投稿キャプションを入力してください",
+        "emt_msg": "投稿がありません",
+        "emt_desc": "フィードが作成されていないか、このフィードには投稿がありません。",
+        "emt_button": "フィードを作成",
+        "aiPromptPlaceholder": "キャプションの内容を説明してください",
+        "captionPlaceholder": "投稿キャプションを入力",
+        "btn_add": "チャンネルを追加",
+        "deleteMsg": "選択した項目は完全に削除されます。",
+        "tab": {
+            "allChannels": "すべてのチャンネル",
+            "emailCampaign": "メールキャンペーン",
+            "shopOnBio": "ShopOn.Bio",
+            "website": "ウェブサイト",
+            "socialPublish": "ソーシャル投稿"
+        },
+        "content": {
+            "tableHead": [
+                "投稿プレビュー",
+                "ステータス",
+                "ソース",
+                "作成日",
+                "操作"
+            ],
+            "scheduleFor": "予約日時",
+            "rename": "編集",
+            "delete": "削除"
+        },
+        "three_word_error": "少なくとも3語を入力してください。"
+    },   
+    "localization_pop": {
+        "title": "ローカリゼーション",
+        "dics": "Taggboxのローカリゼーション機能を活用して、ウィジェットを即座に任意の言語に翻訳します。ユーザーの母国語で直接話しかけ、グローバルなリーチと影響力を最大化しましょう。"
     }
 }
