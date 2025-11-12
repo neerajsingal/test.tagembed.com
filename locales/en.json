@@ -672,6 +672,9 @@
             ],
             "38": [
                 "Enter the hotel URL from Booking.com and choose the best reviews."
+            ],
+            "47": [
+                "Continue and select one option to enter the details."
             ]
         },
         "feedCreationBtnMsg": {
@@ -697,7 +700,8 @@
             "35": "You're prepared to proceed. Click \"Next\" to view the preview and explore further options.",
             "36": "You're prepared to proceed. Click \"Next\" to view the preview and explore further options.",
             "37": "Nice. You are all set to go. Click on next to see preview and other options",
-            "38": "Nice. You are all set to go. Click on next to see preview and other options"
+            "38": "Nice. You are all set to go. Click on next to see preview and other options",
+            "47": "Nice. You are all set to go. Click on next to see preview and other options"
         },
         "filterMsg": {
             "1": {
@@ -791,7 +795,8 @@
             },
             "36": null,
             "37": null,
-            "38": null
+            "38": null,
+            "47": null
         },
         "verificationEmail": {
             "signOut": "Sign Out",
@@ -895,6 +900,10 @@
             "38": {
                 "msg": "Booking!! Thats a Good Choice.",
                 "btnText": "Click next to select what would you like me to collect from Booking"
+            },
+            "47": {
+                "msg": "Reddit!! Thats a Good Choice.",
+                "btnText": "Click next to select what would you like me to collect from Reddit"
             }
         }
     },
@@ -1538,7 +1547,8 @@
             "37": "Aliexpress",
             "38": "Booking",
             "45": "Bluesky",
-            "46": "Threads"
+            "46": "Threads",
+            "47": "Reddit"
         },
         "alert_msg": {
             "26": "Instagram only allows posts from the last 24 hours. If there are no recent posts in the 24-hour duration, then the top 50 posts will be aggregated. Also, all your upcoming posts will be aggregated. Posts collected via hashtags will not include any information of the user.",
@@ -3697,5 +3707,10 @@
         "title":"Now Schedule UGC on Social Media",
         "dics":"Plan and schedule your user-generated content across all social media platforms. Reach your audience at the perfect time.",
         "btn":"Start Scheduling"
+    },
+    "mfa_upgrade": {
+        "heading": "Upgrade for MFA!",
+        "message": "Please contact our sales team to enable this advanced security feature for your organization.",
+        "button": "Talk to Sales"
     }
 }
