@@ -3692,5 +3692,10 @@
     "postScheduler_pop": {
         "title": "Want to publish more UGC on social media?",
         "dics": "🎉 Great news! Your UGC is performing amazingly well. Ready to scale up and reach even more audiences?"
+    },
+    "wel_schedular_modal":{
+        "title":"Now Schedule UGC on Social Media",
+        "dics":"Plan and schedule your user-generated content across all social media platforms. Reach your audience at the perfect time.",
+        "btn":"Start Scheduling"
     }
 }
