@@ -3668,11 +3668,12 @@
         "msg_3": "Veuillez sélectionner un compte",
         "msg_4": "Vous pouvez sélectionner au maximum 10 posts",
         "msg_5": "Veuillez entrer une légende pour le post",
-        "emt_msg": "Aucun post disponible",
+        "emt_msg": "Aucune publication prévue",
         "emt_desc": "Il semble qu’aucun flux n’ait été créé ou que ce flux ne contienne aucun post à publier.",
         "emt_button": "Créer un flux",
         "aiPromptPlaceholder": "Décrivez le sujet de votre légende",
         "captionPlaceholder": "Entrez la légende du post",
+        "aIcaptionPlaceholder": "Saisissez la légende du post IA (au moins 3 mots)",
         "btn_add": "Ajouter un canal",
         "deleteMsg": "L’élément sélectionné sera supprimé définitivement.",
         "tab": {
@@ -3695,7 +3696,7 @@
             "delete": "Supprimer"
         },
         "three_word_error": "Veuillez entrer au moins 3 mots."
-    },  
+    },
     "localization_pop": {
         "title": "Localisation",
         "dics": "Exploitez la localisation Taggbox pour traduire instantanément votre widget dans n'importe quelle langue. Parlez directement aux utilisateurs dans leur langue maternelle afin de maximiser votre portée et votre impact à l’échelle mondiale."
