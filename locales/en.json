@@ -3643,7 +3643,7 @@
         "contentSource": "Content Source",
         "fromAppAccount": "From App Account",
         "fromDevice": "From Device",
-        "whereToPublish": "Where to publish",
+        "whereToPublish": "Where To Publish",
         "connectOthers": "Connect Others",
         "connectedAccounts": "Connected Accounts",
         "postCaption": "Post Caption",
@@ -3652,7 +3652,7 @@
         "schedulePost": "Schedule Post",
         "saveDraft": "Save Draft",
         "fromApp": "From Gallery",
-        "selectPost": "Select post image to publish on social media",
+        "selectPost": "Choose the post(s) to publish on your social media accounts.",
         "postMedia": "Post Media",
         "title": "Social Publish",
         "writeWithAI": "Write with AI",
@@ -3685,7 +3685,7 @@
         },
         "content": {
             "tableHead": [
-                "Post Preview",
+                "Media",
                 "Status",
                 "Source",
                 "Created Date",

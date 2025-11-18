@@ -3652,7 +3652,7 @@
         "schedulePost": "Beitrag planen",
         "saveDraft": "Entwurf speichern",
         "fromApp": "Aus Galerie",
-        "selectPost": "Wähle ein Beitragsbild zur Veröffentlichung in sozialen Medien",
+        "selectPost": "Wählen Sie die Beiträge aus, die Sie auf Ihren Social-Media-Konten veröffentlichen möchten.",
         "postMedia": "Beitragsmedien",
         "title": "Soziale Veröffentlichung",
         "writeWithAI": "Mit KI schreiben",
@@ -3685,7 +3685,7 @@
         },
         "content": {
             "tableHead": [
-                "Beitragsvorschau",
+                "Medien",
                 "Status",
                 "Quelle",
                 "Erstellungsdatum",

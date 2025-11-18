@@ -3652,7 +3652,7 @@
         "schedulePost": "Planifier la publication",
         "saveDraft": "Enregistrer le brouillon",
         "fromApp": "Depuis la galerie",
-        "selectPost": "Sélectionnez une image à publier sur les réseaux sociaux",
+        "selectPost": "Choisissez les publications que vous souhaitez publier sur vos comptes de réseaux sociaux.",
         "postMedia": "Média du post",
         "title": "Publication sociale",
         "writeWithAI": "Écrire avec l’IA",
@@ -3685,7 +3685,7 @@
         },
         "content": {
             "tableHead": [
-                "Aperçu du post",
+                "Médias",
                 "Statut",
                 "Source",
                 "Date de création",

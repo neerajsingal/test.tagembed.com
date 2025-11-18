@@ -3643,7 +3643,7 @@
         "contentSource": "コンテンツソース",
         "fromAppAccount": "アプリアカウントから",
         "fromDevice": "デバイスから",
-        "whereToPublish": "投稿先を選択",
+        "whereToPublish": "どこに投稿するか",
         "connectOthers": "他のアカウントを接続",
         "connectedAccounts": "接続済みアカウント",
         "postCaption": "投稿キャプション",
@@ -3652,7 +3652,7 @@
         "schedulePost": "投稿を予約",
         "saveDraft": "下書きを保存",
         "fromApp": "ギャラリーから",
-        "selectPost": "SNSに投稿する画像を選択してください",
+        "selectPost": "ソーシャルメディアアカウントに公開する投稿を選択してください。",
         "postMedia": "投稿メディア",
         "title": "ソーシャル投稿",
         "writeWithAI": "AIで作成",
@@ -3685,7 +3685,7 @@
         },
         "content": {
             "tableHead": [
-                "投稿プレビュー",
+                "メディア",
                 "ステータス",
                 "ソース",
                 "作成日",
