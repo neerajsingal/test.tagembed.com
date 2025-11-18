@@ -3661,7 +3661,7 @@
         "uploadMedia": "Téléverser un média",
         "uploadMediaMsg": "Taille vidéo : max 100 Mo, durée 1 min | Taille image : max 20 Mo",
         "generate": "Générer",
-        "reGenerate": "Régénérer",
+        "reGenerate": "Insérer",
         "postPreview": "Aperçu du post",
         "msg_1": "Vos sélections actuelles seront perdues si vous changez de galerie.",
         "msg_2": "Veuillez sélectionner un post",

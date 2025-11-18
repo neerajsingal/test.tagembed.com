@@ -3661,7 +3661,7 @@
         "uploadMedia": "Medien hochladen",
         "uploadMediaMsg": "Videogröße: max. 100 MB, Dauer 1 Min. | Bildgröße: max. 20 MB",
         "generate": "Generieren",
-        "reGenerate": "Neu generieren",
+        "reGenerate": "Einfügen",
         "postPreview": "Beitragsvorschau",
         "msg_1": "Ihre aktuellen Beitragsauswahlen gehen verloren, wenn Sie die Galerie ändern.",
         "msg_2": "Bitte Beitrag auswählen",

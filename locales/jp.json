@@ -3661,7 +3661,7 @@
         "uploadMedia": "メディアをアップロード",
         "uploadMediaMsg": "動画サイズ：最大100MB（1分以内）｜画像サイズ：最大20MB",
         "generate": "生成",
-        "reGenerate": "再生成",
+        "reGenerate": "挿入",
         "postPreview": "投稿プレビュー",
         "msg_1": "ギャラリーを変更すると現在の投稿選択が失われます。",
         "msg_2": "投稿を選択してください",
