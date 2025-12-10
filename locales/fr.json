@@ -3550,12 +3550,10 @@
                     "1": "Copiez l'ID du site.",
                     "2": "Allez dans Personnaliser (Boutique en ligne → Personnaliser).",
                     "3": "Cliquez sur Ajouter une section.",
-                    "4": "Sélectionnez Voir plus puis ajoutez {COMPANY_NAME} : Shoppable Instagram.",
+                    "4": "Sélectionnez « Afficher plus », allez dans « Applications », puis choisissez « Ajouter un flux Instagram »",
                     "5": "Collez l'ID du site et cliquez sur Enregistrer.",
                     "6": "Glissez et positionnez la section comme souhaité via le panneau gauche.",
-                    "7": "Si votre thème ne prend pas en charge les sections, utilisez les options de code personnalisé ou d'installation automatique.",
-                    "8": "Vous pouvez également modifier le titre et le sous-titre de votre galerie Shoppable.",
-                    "9": "Pour des instructions détaillées, consultez la vidéo d'installation."
+                    "7": "Si votre thème ne prend pas en charge les sections, utilisez les options de code personnalisé ou d'installation automatique."
                 }
             },
             "msg": {
