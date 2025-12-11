@@ -3718,5 +3718,10 @@
     "heading": "Upgrade für MFA!",
     "message": "Bitte kontaktieren Sie unser Vertriebsteam, um diese erweiterte Sicherheitsfunktion für Ihre Organisation zu aktivieren.",
     "button": "Mit dem Vertrieb sprechen"
-}
+},
+    "shopify_modal": {
+        "title": "Neues Update: UI-Überarbeitung + Shoppable Widgets jetzt verfügbar",
+        "dics": "Wir haben Ihr Shopify-Plugin mit einer saubereren, benutzerfreundlicheren Oberfläche und neuen Funktionen aktualisiert. Zudem können Sie jetzt shoppable Widgets nutzen, um Produkte zu markieren und Kundenvertrauen in Umsätze umzuwandeln.",
+        "btn": "Jetzt erkunden"
+    }
 }

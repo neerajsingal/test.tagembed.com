@@ -3718,5 +3718,10 @@
     "heading": "Mise à niveau pour MFA !",
     "message": "Veuillez contacter notre équipe commerciale pour activer cette fonctionnalité de sécurité avancée pour votre organisation.",
     "button": "Parler aux ventes"
-}
+},
+    "shopify_modal": {
+        "title": "Nouvelle mise à jour : Rafraîchissement de l'interface + Widgets Shoppables maintenant disponibles",
+        "dics": "Nous avons amélioré votre plugin Shopify avec une interface plus épurée et conviviale, ainsi que des fonctionnalités supplémentaires. De plus, vous pouvez désormais utiliser des widgets shoppables pour étiqueter des produits et transformer la confiance des clients en ventes.",
+        "btn": "Explorer maintenant"
+    }
 }
