@@ -2094,6 +2094,7 @@
         "countine_net_btn": "#{{networkName}}で続行",
         "moderation_select_post_msg": "選択した投稿を#{{actionType}}承認しますか？",
         "delete_selected_post": "選択した投稿を削除しますか？",
+        "delete_selected_feed": "選択したフィードを削除しますか？",
         "recover_msg": "この投稿は復元できません。",
         "confirm_user": "ユーザーを確認",
         "user_post": "#{{username}}さんの投稿",

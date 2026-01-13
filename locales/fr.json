@@ -2094,6 +2094,7 @@
         "countine_net_btn": "Continuer avec #{{networkName}}",
         "moderation_select_post_msg": "Voulez-vous #{{actionType}} la publication sélectionnée ?",
         "delete_selected_post": "Voulez-vous supprimer la publication sélectionnée ?",
+        "delete_selected_feed": "Voulez-vous supprimer le flux sélectionné ?",
         "recover_msg": "Vous ne pourrez pas récupérer cette publication.",
         "confirm_user": "Confirmer l'utilisateur",
         "user_post": "Publication de #{{username}}",

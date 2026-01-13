@@ -2094,6 +2094,7 @@
         "countine_net_btn": "Mit #{{networkName}} fortfahren",
         "moderation_select_post_msg": "Möchten Sie den ausgewählten Beitrag #{{actionType}}freigeben?",
         "delete_selected_post": "Möchten Sie den ausgewählten Beitrag löschen?",
+        "delete_selected_feed": "Möchten Sie den ausgewählten Feed löschen?",
         "recover_msg": "Dieser Beitrag kann nicht wiederhergestellt werden.",
         "confirm_user": "Benutzer bestätigen",
         "user_post": "Beitrag von #{{username}}",
