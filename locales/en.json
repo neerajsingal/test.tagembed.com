@@ -176,6 +176,19 @@
             { "label": "Designer", "value": "Designer" },
             { "label": "Product Manager", "value": "Product Manager" },
             { "label": "Others", "value": "Others" }
+        ],
+        "fromWhere_list": [
+            { "label": "Google", "value": "Google" },
+            { "label": "Reddit", "value": "Reddit" },
+            { "label": "Affiliate", "value": "Affiliate" },
+            { "label": "LLMs", "value": "LLMs" },
+            { "label": "Social Media", "value": "Social Media" },
+            { "label": "Youtube", "value": "Youtube", "status": 1},
+            { "label": "Instagram", "value": "Instagram", "status": 1 },
+            { "label": "Facebook", "value": "Facebook", "status": 1 },
+            { "label": "Twitter", "value": "Twitter", "status": 1 },
+            { "label": "LinkedIN", "value": "LinkedIN", "status": 1 },
+            { "label": "Others", "value": "Others"}
         ]
     },
     "plan": {
@@ -1887,7 +1900,8 @@
         "submit_button": "Submit",
         "skip_button": "I'll do this later",
         "other_industries": "Enter your industry",
-        "other_designation": "Enter your Designation"
+        "other_designation": "Enter your Designation",
+        "other_fromWhere": "Where did you hear about us?"
     },
     "header": {
         "profile_link": "Profile",

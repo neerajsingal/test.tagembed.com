@@ -176,7 +176,21 @@
             { "label": "Designer", "value": "Designer" },
             { "label": "Produktmanager", "value": "Product Manager" },
             { "label": "Andere", "value": "Others" }
+        ],
+        "fromWhere_list": [
+            { "label": "Google", "value": "Google" },
+            { "label": "Reddit", "value": "Reddit" },
+            { "label": "Affiliate", "value": "Affiliate" },
+            { "label": "Große Sprachmodelle", "value": "LLMs" },
+            { "label": "Soziale Medien", "value": "Social Media" },
+            { "label": "YouTube", "value": "Youtube", "status": 1 },
+            { "label": "Instagram", "value": "Instagram", "status": 1 },
+            { "label": "Facebook", "value": "Facebook", "status": 1 },
+            { "label": "Twitter", "value": "Twitter", "status": 1 },
+            { "label": "LinkedIn", "value": "LinkedIN", "status": 1 },
+            { "label": "Sonstiges", "value": "Others" }
         ]
+
     },
     "plan": {
         "back_to_feature": "Zurück zur Funktion",
@@ -1887,7 +1901,8 @@
         "submit_button": "Absenden",
         "skip_button": "Ich mache das später",
         "other_industries": "Geben Sie Ihre Branche ein",
-        "other_designation": "Geben Sie Ihre Berufsbezeichnung ein"
+        "other_designation": "Geben Sie Ihre Berufsbezeichnung ein",
+        "other_fromWhere": "Wo haben Sie von uns gehört?"
     },
     "header": {
         "profile_link": "Profil",
