@@ -1893,7 +1893,8 @@
         "submit_button": "Invia",
         "skip_button": "Lo farò più tardi",
         "other_industries": "Inserisci il tuo settore",
-        "other_designation": "Inserisci la tua Qualifica"
+        "other_designation": "Inserisci la tua Qualifica",
+        "other_fromWhere": "Dove hai sentito parlare di noi?"
     },
     "header": {
         "profile_link": "Profilo",
