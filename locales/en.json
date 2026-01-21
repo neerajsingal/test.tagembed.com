@@ -182,12 +182,11 @@
             { "label": "Reddit", "value": "Reddit" },
             { "label": "Affiliate", "value": "Affiliate" },
             { "label": "LLMs", "value": "LLMs" },
-            { "label": "Social Media", "value": "Social Media" },
-            { "label": "Youtube", "value": "Youtube", "status": 1},
-            { "label": "Instagram", "value": "Instagram", "status": 1 },
-            { "label": "Facebook", "value": "Facebook", "status": 1 },
-            { "label": "Twitter", "value": "Twitter", "status": 1 },
-            { "label": "LinkedIN", "value": "LinkedIN", "status": 1 },
+            { "label": "Youtube", "value": "Youtube"},
+            { "label": "Instagram", "value": "Instagram" },
+            { "label": "Facebook", "value": "Facebook" },
+            { "label": "Twitter", "value": "Twitter" },
+            { "label": "LinkedIN", "value": "LinkedIN" },
             { "label": "Others", "value": "Others"}
         ]
     },

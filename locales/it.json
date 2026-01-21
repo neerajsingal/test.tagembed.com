@@ -176,6 +176,18 @@
             { "label": "Designer", "value": "Designer" },
             { "label": "Responsabile Prodotto", "value": "Product Manager" },
             { "label": "Altri", "value": "Others" }
+        ],
+        "fromWhere_list": [
+            { "label": "Google", "value": "Google" },
+            { "label": "Reddit", "value": "Reddit" },
+            { "label": "Affiliate", "value": "Affiliate" },
+            { "label": "LLMs", "value": "LLMs" },
+            { "label": "Youtube", "value": "Youtube"},
+            { "label": "Instagram", "value": "Instagram" },
+            { "label": "Facebook", "value": "Facebook" },
+            { "label": "Twitter", "value": "Twitter" },
+            { "label": "LinkedIN", "value": "LinkedIN" },
+            { "label": "Others", "value": "Others"}
         ]
     },
     "plan": {
