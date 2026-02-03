@@ -349,13 +349,7 @@
         "pay_now": "Complete Payment Now",
         "no_changed_des": "No, I have changed my mind",
         "already_paid": "Your already paid amount will automatically be adjusted in your billing.",
-        "continue_with": "Continue with '#{{upgradedPlanName}}'",
-        "plan_upgrade_pop": "You've Discovered a Premium Feature!",
-        "plan_upgrade_pop_desc": "You have created a <strong>#{{feedName}} feed</strong>, which is not included in your plan. To continue displaying content from this network, please upgrade your plan.",
-        "plan_upgrade_pop_shop_desc": "Your shoppable gallery is ready! Upgrade your plan to embed it on your website and turn visitors into buyers.",
-        "plan_upgrade_cta_title": "Prefer not to Upgrade?",
-        "plan_upgrade_cta_desc": "You can delete the #{{feedName}} feed and choose network which is included in free plan.",
-        "plan_upgrade_cta_btn": "Delete My Feed"
+        "continue_with": "Continue with '#{{upgradedPlanName}}'"
     },
     "moderation": {
         "no_posts": "No Posts!",
@@ -2107,7 +2101,6 @@
         "countine_net_btn": "Continue with #{{networkName}}",
         "moderation_select_post_msg": "You want to #{{actionType}} selected post?",
         "delete_selected_post": "You want to delete selected post?",
-        "delete_selected_feed": "You want to delete selected feed?",
         "recover_msg": "You will not be able to recover this post.",
         "confirm_user": "Confirm User",
         "user_post": "#{{username}}'s Post",
@@ -3710,7 +3703,7 @@
         "aiPromptPlaceholder": "Describe what your caption should be about  (at least 3 words)",
         "captionPlaceholder": "Enter post caption",
         "aIcaptionPlaceholder": "Enter AI post caption (at least 3 words)",
-        "btn_add": "Schedule Now",
+        "btn_add": "Add Channel",
         "deleteMsg": "Selected item will be deleted permanently.",
         "tab": {
             "allChannels": "All Channels",
@@ -3751,6 +3744,11 @@
         "title": "Localization",
         "dics": "Leverage ${{company_name}} localization to instantly translate your widget into any language. Speak directly to users in their native tongue to maximize global reach and impact."
     },
+    "mfa_upgrade": {
+        "heading": "Upgrade for MFA!",
+        "message": "Please contact our sales team to enable this advanced security feature for your organization.",
+        "button": "Talk to Sales"
+    },
     "postScheduler_pop": {
         "title": "Want to publish more UGC on social media?",
         "dics": "🎉 Great news! Your UGC is performing amazingly well. Ready to scale up and reach even more audiences?"
@@ -3759,11 +3757,6 @@
         "title":"Now Schedule UGC on Social Media",
         "dics":"Plan and schedule your user-generated content across all social media platforms. Reach your audience at the perfect time.",
         "btn":"Start Scheduling"
-    },
-    "mfa_upgrade": {
-        "heading": "Upgrade for MFA!",
-        "message": "Please contact our sales team to enable this advanced security feature for your organization.",
-        "button": "Talk to Sales"
     },
     "shopify_modal":{
         "title":"New Update: UI Refresh + Shoppable Widgets Now Live",
