@@ -350,7 +350,13 @@
         "pay_now": "Effectuer le paiement maintenant",
         "no_changed_des": "Non, j'ai changé d'avis",
         "already_paid": "Le montant déjà payé sera automatiquement ajusté dans votre facturation.",
-        "continue_with": "Continuer avec '#{{upgradedPlanName}}'"
+        "continue_with": "Continuer avec '#{{upgradedPlanName}}'",
+        "plan_upgrade_pop": "Vous avez découvert une fonctionnalité Premium !",
+        "plan_upgrade_pop_desc": "Vous avez créé un <strong>flux #{{feedName}}</strong>, qui n'est pas inclus dans votre forfait. Pour continuer à afficher du contenu de ce réseau, veuillez mettre à niveau votre forfait.",
+        "plan_upgrade_pop_shop_desc": "Votre galerie shoppable est prête ! Améliorez votre forfait pour l'intégrer sur votre site web et transformer les visiteurs en acheteurs.",
+        "plan_upgrade_cta_title": "Vous préférez ne pas mettre à niveau ?",
+        "plan_upgrade_cta_desc": "Vous pouvez supprimer le flux #{{feedName}} et choisir un réseau inclus dans le forfait gratuit.",
+        "plan_upgrade_cta_btn": "Supprimer mon flux"
     },
     "moderation": {
         "no_posts": "Aucun message !",
@@ -1952,7 +1958,7 @@
         "length_full_name": "Le nom complet doit contenir au moins 3 caractères.",
         "fill_full_name": "Veuillez remplir ce champ.",
         "valid_name": "Veuillez saisir un nom valide",
-        "business_address": "Adresse professionnelle",
+        "business_address": "E-mail professionnelle",
         "swap_email": "Échangez les emails personnels avec des emails professionnels pour une meilleure expérience",
         "verify_robot": "Veuillez vérifier que vous n'êtes pas un robot.",
         "talk_to_us": "Parlez-nous !",
@@ -2102,6 +2108,7 @@
         "countine_net_btn": "Continuer avec #{{networkName}}",
         "moderation_select_post_msg": "Voulez-vous #{{actionType}} la publication sélectionnée ?",
         "delete_selected_post": "Voulez-vous supprimer la publication sélectionnée ?",
+        "delete_selected_feed": "Voulez-vous supprimer le flux sélectionné ?",
         "recover_msg": "Vous ne pourrez pas récupérer cette publication.",
         "confirm_user": "Confirmer l'utilisateur",
         "user_post": "Publication de #{{username}}",
@@ -3704,7 +3711,7 @@
         "aiPromptPlaceholder": "Décrivez le sujet de votre légende",
         "captionPlaceholder": "Entrez la légende du post",
         "aIcaptionPlaceholder": "Saisissez la légende du post IA (au moins 3 mots)",
-        "btn_add": "Ajouter un canal",
+        "btn_add": "Planifier maintenant",
         "deleteMsg": "L’élément sélectionné sera supprimé définitivement.",
         "tab": {
             "allChannels": "Tous les canaux",
@@ -3745,20 +3752,20 @@
         "title": "Localisation",
         "dics": "Exploitez la localisation #{{company_name}} pour traduire instantanément votre widget dans n'importe quelle langue. Parlez directement aux utilisateurs dans leur langue maternelle afin de maximiser votre portée et votre impact à l’échelle mondiale."
     },
-    "mfa_upgrade": {
-        "heading": "Mise à niveau pour MFA !",
-        "message": "Veuillez contacter notre équipe commerciale pour activer cette fonctionnalité de sécurité avancée pour votre organisation.",
-        "button": "Parler aux ventes"
-    },
     "postScheduler_pop": {
-        "title": "Vous souhaitez publier plus d’UGC sur les réseaux sociaux ?",
-        "dics": "🎉 Bonne nouvelle ! Votre UGC obtient d’excellents résultats. Prêt à augmenter votre portée et toucher encore plus d’audiences ?"
+    "title": "Vous souhaitez publier plus d’UGC sur les réseaux sociaux ?",
+    "dics": "🎉 Bonne nouvelle ! Votre UGC obtient d’excellents résultats. Prêt à augmenter votre portée et toucher encore plus d’audiences ?"
+},
+"wel_schedular_modal": {
+    "title": "Planifiez maintenant le contenu UGC sur les réseaux sociaux",
+    "dics": "Planifiez et programmez votre contenu généré par les utilisateurs sur toutes les plateformes sociales pour atteindre votre audience au moment idéal.",
+    "btn": "Commencer la planification"
     },
-    "wel_schedular_modal": {
-        "title": "Planifiez maintenant le contenu UGC sur les réseaux sociaux",
-        "dics": "Planifiez et programmez votre contenu généré par les utilisateurs sur toutes les plateformes sociales pour atteindre votre audience au moment idéal.",
-        "btn": "Commencer la planification"
-    },
+    "mfa_upgrade": {
+    "heading": "Mise à niveau pour MFA !",
+    "message": "Veuillez contacter notre équipe commerciale pour activer cette fonctionnalité de sécurité avancée pour votre organisation.",
+    "button": "Parler aux ventes"
+},
     "shopify_modal": {
         "title": "Nouvelle mise à jour : Rafraîchissement de l'interface + Widgets Shoppables maintenant disponibles",
         "dics": "Nous avons amélioré votre plugin Shopify avec une interface plus épurée et conviviale, ainsi que des fonctionnalités supplémentaires. De plus, vous pouvez désormais utiliser des widgets shoppables pour étiqueter des produits et transformer la confiance des clients en ventes.",
