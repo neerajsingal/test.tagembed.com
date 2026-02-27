@@ -8,11 +8,11 @@
         "not_mbr": "Noch kein Mitglied?"
     },
     "signup": {
-        "welcome_msg": "Melden Sie sich für eine kostenlose Testversion an",
+        "welcome_msg": "Loslegen — Es ist kostenlos!",
         "carsosel_msg": [
-            "Alle Premium-Funktionen",
-            "Keine Kreditkarte erforderlich",
-            "14-tägige kostenlose Testversion"
+            "24x7 Kundensupport",
+            "Einrichtung in Sekunden",
+            "Unbegrenztes Einbetten"
         ],
         "google_btn": "Mit Google registrieren",
         "sign_up_with_email": "Mit E-Mail registrieren",
@@ -3707,7 +3707,7 @@
         "msg_1": "Ihre aktuellen Beitragsauswahlen gehen verloren, wenn Sie die Galerie ändern.",
         "msg_2": "Bitte Beitrag auswählen",
         "msg_3": "Bitte Konto auswählen",
-        "msg_4": "Sie können maximal 10 Beiträge auswählen",
+        "msg_4": "Sie können maximal #{{length}} Beiträge auswählen",
         "msg_5": "Bitte Beitragsunterschrift eingeben",
         "emt_msg": "Keine Beiträge geplant",
         "emt_desc": "Es scheint, dass kein Feed erstellt wurde oder dieser Feed keine Beiträge zum Veröffentlichen enthält.",
