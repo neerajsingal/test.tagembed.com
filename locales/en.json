@@ -3718,9 +3718,9 @@
         "aIcaptionPlaceholder": "Enter AI post caption (at least 3 words)",
         "btn_add": "Schedule Now",
         "deleteMsg": "Selected item will be deleted permanently.",
-        "post_type":"Post type",
-        "post":"Post",
-        "story":"Story",
+        "post_type":"Content Type", 
+        "post":"Post", 
+        "story":"Reel / Story",
         "tab": {
             "allChannels": "All Channels",
             "emailCampaign": "Email Campaign",
