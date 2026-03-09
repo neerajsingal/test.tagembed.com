@@ -3720,7 +3720,7 @@
         "deleteMsg": "Selected item will be deleted permanently.",
         "post_type":"Content Type", 
         "post":"Post", 
-        "story":"Reel / Story",
+        "story":"Story",
         "tab": {
             "allChannels": "All Channels",
             "emailCampaign": "Email Campaign",
